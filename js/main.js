@@ -1,7 +1,9 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZWFydGhhZGFtIiwiYSI6ImNqd3Y3amlwczBnMzc0YW4xc2x1NWVuNGoifQ.jQvOGeLkupgLxp31-Oa6gw';
 
-//Add commas and stuff to cost value
 function numberWithCommas(x) {
+    if (x === undefined || x === null) {
+        return 'N/A';
+    }
     return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
 }
 
@@ -79,7 +81,7 @@ map.on('load', function () {
         var description = `
             <h2>${properties.name}</h2>
             <p><strong>Type:</strong> ${properties.plant_source}</p>
-            <p><strong>Capacity:</strong> ${numberWithCommas(properties.plant_output)} MW</p>
+            <p><strong>Capacity:</strong> ${properties.plant_output} MW</p>
             <p><strong>Method:</strong> ${properties.plant_method}</p >
             <p><strong>Operator:</strong> ${properties.operator}</p>
             <p><strong>Commissioned:</strong> ${properties.start_date}</p>
@@ -101,7 +103,7 @@ map.on('load', function () {
         var description = `
         < h2 > ${ properties.name }</h2 >
             <p><strong>Type:</strong> ${properties.plant_source}</p>
-            <p><strong>Capacity:</strong> ${numberWithCommas(properties.plant_output)} MW</p>
+            <p><strong>Capacity:</strong> ${properties.plant_output} MW</p>
             <p><strong>Method:</strong> ${properties.plant_method}</p>
             <p><strong>Operator:</strong> ${properties.operator}</p>
             <p><strong>Commissioned:</strong> ${properties.start_date}</p>
