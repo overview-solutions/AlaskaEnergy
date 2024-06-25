@@ -46,7 +46,7 @@ map.on('load', function () {
             },
             'circle-color': [
                 'match',
-                ['get', 'plant:source'],
+                ['get', 'plant_source'],
                 'wind', '#76b041',
                 'solar', '#f39c12',
                 'hydro', '#3498db',
@@ -78,9 +78,9 @@ map.on('load', function () {
         var properties = e.features[0].properties;
         var description = `
             <h2>${properties.name}</h2>
-            <p><strong>Type:</strong> ${properties.generation_type}</p>
-            <p><strong>Capacity:</strong> ${numberWithCommas(properties.output:electricity)} MW</p>
-            <p><strong>Method:</strong> ${properties.plant:method}</p>
+            <p><strong>Type:</strong> ${properties.plant_source}</p>
+            <p><strong>Capacity:</strong> ${numberWithCommas(properties.plant_output)} MW</p>
+            <p><strong>Method:</strong> ${properties.plant_method}</p >
             <p><strong>Operator:</strong> ${properties.operator}</p>
             <p><strong>Commissioned:</strong> ${properties.start_date}</p>
             `;
@@ -99,10 +99,10 @@ map.on('load', function () {
         var coordinates = e.features[0].geometry.coordinates.slice();
         var properties = e.features[0].properties;
         var description = `
-            <h2>${properties.name}</h2>
-            <p><strong>Type:</strong> ${properties.plant:source}</p>
-            <p><strong>Capacity:</strong> ${numberWithCommas(properties.output:electricity)} MW</p>
-            <p><strong>Method:</strong> ${properties.plant:method}</p>
+        < h2 > ${ properties.name }</h2 >
+            <p><strong>Type:</strong> ${properties.plant_source}</p>
+            <p><strong>Capacity:</strong> ${numberWithCommas(properties.plant_output)} MW</p>
+            <p><strong>Method:</strong> ${properties.plant_method}</p>
             <p><strong>Operator:</strong> ${properties.operator}</p>
             <p><strong>Commissioned:</strong> ${properties.start_date}</p>
             `;
