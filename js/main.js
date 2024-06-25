@@ -8,8 +8,8 @@ function numberWithCommas(x) {
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/earthadam/cjxo0sdri31o01clrrw3qesbq', // Presentation style
-    center: [13.902049, 3.489016],
-    zoom: 2
+    center: [-149.4937, 64.2008], // Coordinates for Alaska
+    zoom: 4
 });
 
 var icon = "circle";
@@ -46,15 +46,15 @@ map.on('load', function () {
             },
             'circle-color': [
                 'match',
-                ['get', 'generation_type'],
-                'Wind', '#76b041',
-                'Solar', '#f39c12',
-                'Hydro', '#3498db',
-                'Geothermal', '#9b59b6',
-                'Biomass', '#27ae60',
-                'Coal', '#34495e',
-                'Gas', '#e74c3c',
-                'Oil', '#2c3e50',
+                ['get', 'plant:source'],
+                'wind', '#76b041',
+                'solar', '#f39c12',
+                'hydro', '#3498db',
+                'geothermal', '#9b59b6',
+                'biomass', '#27ae60',
+                'coal', '#34495e',
+                'gas', '#e74c3c',
+                'oil', '#2c3e50',
                 /* other */ '#fff'
             ],
             'circle-stroke-color': '#000',
@@ -79,10 +79,10 @@ map.on('load', function () {
         var description = `
             <h2>${properties.name}</h2>
             <p><strong>Type:</strong> ${properties.generation_type}</p>
-            <p><strong>Capacity:</strong> ${numberWithCommas(properties.capacity)} MW</p>
-            <p><strong>Status:</strong> ${properties.status}</p>
+            <p><strong>Capacity:</strong> ${numberWithCommas(properties.output:electricity)} MW</p>
+            <p><strong>Method:</strong> ${properties.plant:method}</p>
             <p><strong>Operator:</strong> ${properties.operator}</p>
-            <p><strong>Country:</strong> ${properties.country}</p>
+            <p><strong>Commissioned:</strong> ${properties.start_date}</p>
             `;
 
         popup.setLngLat(coordinates)
@@ -100,11 +100,11 @@ map.on('load', function () {
         var properties = e.features[0].properties;
         var description = `
             <h2>${properties.name}</h2>
-            <p><strong>Type:</strong> ${properties.generation_type}</p>
-            <p><strong>Capacity:</strong> ${numberWithCommas(properties.capacity)} MW</p>
-            <p><strong>Status:</strong> ${properties.status}</p>
+            <p><strong>Type:</strong> ${properties.plant:source}</p>
+            <p><strong>Capacity:</strong> ${numberWithCommas(properties.output:electricity)} MW</p>
+            <p><strong>Method:</strong> ${properties.plant:method}</p>
             <p><strong>Operator:</strong> ${properties.operator}</p>
-            <p><strong>Country:</strong> ${properties.country}</p>
+            <p><strong>Commissioned:</strong> ${properties.start_date}</p>
             `;
 
         popup.setLngLat(coordinates)
