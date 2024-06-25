@@ -1,0 +1,6891 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-06-25T16:13:28Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/29407400",
+        "landuse": "industrial",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "coal",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.7098403,
+              61.2466664
+            ],
+            [
+              -149.7094945,
+              61.2459302
+            ],
+            [
+              -149.7090019,
+              61.2459838
+            ],
+            [
+              -149.7088926,
+              61.2457512
+            ],
+            [
+              -149.7082282,
+              61.2458234
+            ],
+            [
+              -149.7082878,
+              61.2459501
+            ],
+            [
+              -149.7079461,
+              61.2459873
+            ],
+            [
+              -149.7081413,
+              61.2464028
+            ],
+            [
+              -149.7090545,
+              61.2463035
+            ],
+            [
+              -149.7092549,
+              61.24673
+            ],
+            [
+              -149.7098403,
+              61.2466664
+            ]
+          ]
+        ]
+      },
+      "id": "way/29407400"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/199131538",
+        "building": "industrial",
+        "name": "Bradley Lake Hydroelectric Project",
+        "operator": "Homer Electric Association",
+        "owner": "State of Alaska, Alaska Energy Authority",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "126 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7367",
+        "source": "Bing",
+        "start_date": "1991-06"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -150.9404502,
+              59.7790455
+            ],
+            [
+              -150.9404087,
+              59.7785194
+            ],
+            [
+              -150.9399124,
+              59.7785293
+            ],
+            [
+              -150.9399539,
+              59.7790554
+            ],
+            [
+              -150.9401293,
+              59.7790519
+            ],
+            [
+              -150.9404502,
+              59.7790455
+            ]
+          ]
+        ]
+      },
+      "id": "way/199131538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/203394726",
+        "building": "industrial",
+        "name": "Snettisham Power Plant",
+        "operator": "Alaska Electric Light&Power Co",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "78.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "78",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1973-11",
+        "wikidata": "Q7547680"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -133.7384696,
+              58.1415819
+            ],
+            [
+              -133.7384062,
+              58.1415259
+            ],
+            [
+              -133.7382914,
+              58.141562
+            ],
+            [
+              -133.7382139,
+              58.1414935
+            ],
+            [
+              -133.7380238,
+              58.1415535
+            ],
+            [
+              -133.7378791,
+              58.1414256
+            ],
+            [
+              -133.7369413,
+              58.1417212
+            ],
+            [
+              -133.7370845,
+              58.1418478
+            ],
+            [
+              -133.7372268,
+              58.1419736
+            ],
+            [
+              -133.7384696,
+              58.1415819
+            ]
+          ]
+        ]
+      },
+      "id": "way/203394726"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/221169086",
+        "landuse": "industrial",
+        "name": "TNSG North Plant",
+        "operator": "TDX North Slope Generating Inc.",
+        "plant:method": "combustion",
+        "plant:output:electricity": "25.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "58278",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2008-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -148.3840524,
+              70.2353011
+            ],
+            [
+              -148.3832159,
+              70.2353976
+            ],
+            [
+              -148.3836116,
+              70.23579
+            ],
+            [
+              -148.3844482,
+              70.2356935
+            ],
+            [
+              -148.3840524,
+              70.2353011
+            ]
+          ]
+        ]
+      },
+      "id": "way/221169086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/238885900",
+        "building": "yes",
+        "name": "Terror Lake Microgrid Power Plant",
+        "operator": "Kodiak Electric Assn Inc",
+        "plant:output:electricity": "33.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "71",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1984-12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -152.8948719,
+              57.6857748
+            ],
+            [
+              -152.8951009,
+              57.6861133
+            ],
+            [
+              -152.8953079,
+              57.6860732
+            ],
+            [
+              -152.8950789,
+              57.6857347
+            ],
+            [
+              -152.8948719,
+              57.6857748
+            ]
+          ]
+        ]
+      },
+      "id": "way/238885900"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/264903638",
+        "frequency": "60",
+        "name": "Cooper Lake Powerhouse",
+        "operator": "Chugach Electric Association",
+        "plant:output:electricity": "19.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6291",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1961-05",
+        "website": "https://www.chugachelectric.com/relicensing/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.666403,
+              60.3928107
+            ],
+            [
+              -149.6666363,
+              60.3926757
+            ],
+            [
+              -149.6667558,
+              60.3926066
+            ],
+            [
+              -149.6664509,
+              60.392478
+            ],
+            [
+              -149.6663967,
+              60.3925093
+            ],
+            [
+              -149.6661537,
+              60.3924069
+            ],
+            [
+              -149.6659453,
+              60.392319
+            ],
+            [
+              -149.6658291,
+              60.3923863
+            ],
+            [
+              -149.6660024,
+              60.3924594
+            ],
+            [
+              -149.6661206,
+              60.3925092
+            ],
+            [
+              -149.6659383,
+              60.3926147
+            ],
+            [
+              -149.666403,
+              60.3928107
+            ]
+          ]
+        ]
+      },
+      "id": "way/264903638"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/265003418",
+        "landuse": "industrial",
+        "name": "Soldotna Combustion Turbine Plant",
+        "operator": "Homer Electric Association",
+        "plant:method": "combustion",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "57206",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2014-04",
+        "website": "https://www.homerelectric.com/my-cooperative/power-generation/soldotna-combustion-turbine-plant/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -150.9988833,
+              60.5002122
+            ],
+            [
+              -150.9988751,
+              60.4987801
+            ],
+            [
+              -150.9957953,
+              60.4987844
+            ],
+            [
+              -150.9957972,
+              60.4991172
+            ],
+            [
+              -150.995802,
+              60.4999507
+            ],
+            [
+              -150.9966361,
+              60.4999496
+            ],
+            [
+              -150.9966376,
+              60.5002154
+            ],
+            [
+              -150.9988833,
+              60.5002122
+            ]
+          ]
+        ]
+      },
+      "id": "way/265003418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/304658759",
+        "landuse": "industrial",
+        "name": "Beluga Power Plant",
+        "operator": "Chugach Electric",
+        "plant:method": "combustion",
+        "plant:output:electricity": "312.4 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "96",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1968-01",
+        "website": "https://www.chugachelectric.com/about-us/your-cooperative/facilities/beluga-power-plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -151.0411271,
+              61.1880149
+            ],
+            [
+              -151.0412494,
+              61.1827541
+            ],
+            [
+              -151.0295938,
+              61.1826911
+            ],
+            [
+              -151.0294715,
+              61.1879519
+            ],
+            [
+              -151.0411271,
+              61.1880149
+            ]
+          ]
+        ]
+      },
+      "id": "way/304658759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/326473227",
+        "building": "industrial",
+        "name": "GVEA Battery Energy Storage System",
+        "operator": "Golden Valley Elec Assn Inc",
+        "plant:output:electricity": "40 MW",
+        "plant:source": "battery",
+        "plant:storage": "6.25 MWh",
+        "power": "plant",
+        "ref:US:EIA": "57583",
+        "source": "Bing",
+        "start_date": "2003-12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -147.7259493,
+              64.81686
+            ],
+            [
+              -147.7259482,
+              64.8165211
+            ],
+            [
+              -147.7258138,
+              64.8165212
+            ],
+            [
+              -147.7234267,
+              64.8165225
+            ],
+            [
+              -147.7227215,
+              64.8165229
+            ],
+            [
+              -147.7227226,
+              64.8168619
+            ],
+            [
+              -147.7259493,
+              64.81686
+            ]
+          ]
+        ]
+      },
+      "id": "way/326473227"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/408007894",
+        "building": "yes",
+        "name": "Green Lake Hydroelectric Power Plant",
+        "operator": "City and Borough of Sitka",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "18.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "313",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1979"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -135.1229033,
+              56.9861917
+            ],
+            [
+              -135.1226439,
+              56.985947
+            ],
+            [
+              -135.1224169,
+              56.9860184
+            ],
+            [
+              -135.1226764,
+              56.9862631
+            ],
+            [
+              -135.1229033,
+              56.9861917
+            ]
+          ]
+        ]
+      },
+      "id": "way/408007894"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/449468782",
+        "landuse": "industrial",
+        "name": "Healy Power Plant",
+        "operator": "Golden Valley Elec Assn Inc",
+        "plant:output:electricity": "92.8 MW",
+        "plant:source": "oil;coal",
+        "power": "plant",
+        "ref:US:EIA": "6288",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1967-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -148.9476344,
+              63.858306
+            ],
+            [
+              -148.9486429,
+              63.8582776
+            ],
+            [
+              -148.9538142,
+              63.8551859
+            ],
+            [
+              -148.9543936,
+              63.8542782
+            ],
+            [
+              -148.9546538,
+              63.8536635
+            ],
+            [
+              -148.9525938,
+              63.8534791
+            ],
+            [
+              -148.9509308,
+              63.8527132
+            ],
+            [
+              -148.9426026,
+              63.8508505
+            ],
+            [
+              -148.940253,
+              63.8513847
+            ],
+            [
+              -148.9379999,
+              63.852406
+            ],
+            [
+              -148.9398989,
+              63.8540985
+            ],
+            [
+              -148.9426669,
+              63.8557296
+            ],
+            [
+              -148.9447162,
+              63.8556398
+            ],
+            [
+              -148.9476344,
+              63.858306
+            ]
+          ]
+        ]
+      },
+      "id": "way/449468782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/464411389",
+        "addr:city": "Sitka",
+        "addr:postcode": "99835",
+        "building": "industrial",
+        "ele": "1.70",
+        "height": "20.70",
+        "name": "Blue Lake Hydro",
+        "operator": "City of Sitka",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "15.9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "93",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1961-06"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -135.229292,
+              57.0509127
+            ],
+            [
+              -135.229251,
+              57.0507233
+            ],
+            [
+              -135.2285425,
+              57.0507687
+            ],
+            [
+              -135.2285835,
+              57.0509581
+            ],
+            [
+              -135.229292,
+              57.0509127
+            ]
+          ]
+        ]
+      },
+      "id": "way/464411389"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/489475217",
+        "building": "industrial",
+        "landuse": "industrial",
+        "name": "Goat Lake hydroelectric facility",
+        "operator": "Alaska Power & Telephone",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7751",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1997-12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -135.2124156,
+              59.5357991
+            ],
+            [
+              -135.2125319,
+              59.535695
+            ],
+            [
+              -135.212291,
+              59.5356257
+            ],
+            [
+              -135.2121746,
+              59.5357298
+            ],
+            [
+              -135.2124156,
+              59.5357991
+            ]
+          ]
+        ]
+      },
+      "id": "way/489475217"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/542530291",
+        "area": "yes",
+        "description": "\"The plant will be a 375 kW, run-of-river system and is estimated to produce 1,000 MWh/yr. The project consists of a small diversion dam and intake, a 4,500-ft penstock, a Pelton impulse turbine, and 5,000 feet of access roads. \" www.akenergyauthority.org",
+        "name": "Delta Creek Dam",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "375 kW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "waterway": "dam",
+        "website": "http://www.akenergyauthority.org/WaterfallCreek"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -162.2723931,
+              55.1399563
+            ],
+            [
+              -162.272316,
+              55.1398727
+            ],
+            [
+              -162.2720346,
+              55.1399574
+            ],
+            [
+              -162.2721117,
+              55.1400411
+            ],
+            [
+              -162.2723931,
+              55.1399563
+            ]
+          ]
+        ]
+      },
+      "id": "way/542530291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/542531157",
+        "area": "yes",
+        "description": "https://www.alaskapublic.org/2017/12/14/king-cove-closer-to-goal-of-100-percent-renewable/",
+        "name": "Clear Creek Dam",
+        "operator": "City of King Cove",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant",
+        "waterway": "dam"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -162.270226,
+              55.1395785
+            ],
+            [
+              -162.270206,
+              55.1395591
+            ],
+            [
+              -162.2698563,
+              55.1396771
+            ],
+            [
+              -162.2698764,
+              55.1396965
+            ],
+            [
+              -162.270226,
+              55.1395785
+            ]
+          ]
+        ]
+      },
+      "id": "way/542531157"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/549459484",
+        "landuse": "industrial",
+        "name": "G + K Power Company",
+        "operator": "G + K",
+        "plant:source": "oil",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -162.7168049,
+              55.2056186
+            ],
+            [
+              -162.7162538,
+              55.2057359
+            ],
+            [
+              -162.7159362,
+              55.2057758
+            ],
+            [
+              -162.7155813,
+              55.2057865
+            ],
+            [
+              -162.7152008,
+              55.205761
+            ],
+            [
+              -162.7152929,
+              55.2061192
+            ],
+            [
+              -162.7155673,
+              55.2061649
+            ],
+            [
+              -162.7160857,
+              55.2061995
+            ],
+            [
+              -162.7164032,
+              55.2061676
+            ],
+            [
+              -162.7167301,
+              55.2061063
+            ],
+            [
+              -162.7171598,
+              55.2059917
+            ],
+            [
+              -162.7171845,
+              55.2059834
+            ],
+            [
+              -162.7171872,
+              55.2059663
+            ],
+            [
+              -162.7171744,
+              55.205933
+            ],
+            [
+              -162.7171383,
+              55.2058891
+            ],
+            [
+              -162.7170524,
+              55.2058078
+            ],
+            [
+              -162.7169474,
+              55.2057101
+            ],
+            [
+              -162.7168049,
+              55.2056186
+            ]
+          ]
+        ]
+      },
+      "id": "way/549459484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/554923766",
+        "landuse": "industrial",
+        "name": "Blind Slough Hydroelectric Power Plant",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "2 MW",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -132.8217344,
+              56.6101191
+            ],
+            [
+              -132.8217047,
+              56.6102179
+            ],
+            [
+              -132.8218656,
+              56.6102326
+            ],
+            [
+              -132.8218953,
+              56.6101337
+            ],
+            [
+              -132.8218265,
+              56.6101274
+            ],
+            [
+              -132.8217344,
+              56.6101191
+            ]
+          ]
+        ]
+      },
+      "id": "way/554923766"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/555183136",
+        "landuse": "industrial",
+        "name": "Kodiak Microgrid",
+        "operator": "Kodiak Electric Assn Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "18.3 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "6281",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1968-02"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -152.3972313,
+              57.78979
+            ],
+            [
+              -152.3966683,
+              57.7899812
+            ],
+            [
+              -152.3968463,
+              57.7901306
+            ],
+            [
+              -152.3974103,
+              57.7899394
+            ],
+            [
+              -152.3972313,
+              57.78979
+            ]
+          ]
+        ]
+      },
+      "id": "way/555183136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/571766699",
+        "operator": "Fire Island Wind",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "18 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58425",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-09",
+        "website": "https://fireislandwind.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -150.2695153,
+              61.1260541
+            ],
+            [
+              -150.269451,
+              61.1241682
+            ],
+            [
+              -150.2584861,
+              61.1243858
+            ],
+            [
+              -150.2480362,
+              61.1241993
+            ],
+            [
+              -150.2383802,
+              61.1237848
+            ],
+            [
+              -150.225098,
+              61.1275357
+            ],
+            [
+              -150.2132748,
+              61.1320632
+            ],
+            [
+              -150.1875899,
+              61.1436949
+            ],
+            [
+              -150.2073525,
+              61.1531587
+            ],
+            [
+              -150.2320613,
+              61.1567691
+            ],
+            [
+              -150.2335228,
+              61.1523201
+            ],
+            [
+              -150.2355153,
+              61.1486135
+            ],
+            [
+              -150.2433315,
+              61.1372613
+            ],
+            [
+              -150.2482695,
+              61.1326729
+            ],
+            [
+              -150.2572187,
+              61.12869
+            ],
+            [
+              -150.2695153,
+              61.1260541
+            ]
+          ]
+        ]
+      },
+      "id": "way/571766699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/581595868",
+        "contact:website": "http://www.seapahydro.org/Tyee-Hydro-Facility.php",
+        "name": "Tyee Hydro Facility",
+        "operator": "Southeast Alaska Power Agency",
+        "plant:output:electricity": "22.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "61166",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1983-07"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -131.5004361,
+              56.2167935
+            ],
+            [
+              -131.4993596,
+              56.2154559
+            ],
+            [
+              -131.498698,
+              56.2146338
+            ],
+            [
+              -131.4900828,
+              56.2159403
+            ],
+            [
+              -131.4869607,
+              56.216519
+            ],
+            [
+              -131.4842999,
+              56.216352
+            ],
+            [
+              -131.4811537,
+              56.2169486
+            ],
+            [
+              -131.4799118,
+              56.2179985
+            ],
+            [
+              -131.4766502,
+              56.2192453
+            ],
+            [
+              -131.4731848,
+              56.220856
+            ],
+            [
+              -131.4918852,
+              56.2184639
+            ],
+            [
+              -131.496166,
+              56.2176585
+            ],
+            [
+              -131.4973891,
+              56.2171037
+            ],
+            [
+              -131.5004361,
+              56.2167935
+            ]
+          ]
+        ]
+      },
+      "id": "way/581595868"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/582658887",
+        "contact:website": "http://www.seapahydro.org/Swan-Lake-Hydro-Facility.php",
+        "name": "Swan Lake Hydro Facility",
+        "operator": "Southeast Alaska Power Agency",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "22.6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "70",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1984-06"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -131.3580376,
+              55.6175445
+            ],
+            [
+              -131.3580436,
+              55.6175286
+            ],
+            [
+              -131.3581274,
+              55.6175582
+            ],
+            [
+              -131.3582046,
+              55.617543
+            ],
+            [
+              -131.3582414,
+              55.6175101
+            ],
+            [
+              -131.3581744,
+              55.617426
+            ],
+            [
+              -131.3579839,
+              55.6172639
+            ],
+            [
+              -131.3580302,
+              55.6172181
+            ],
+            [
+              -131.3580486,
+              55.6171702
+            ],
+            [
+              -131.358057,
+              55.6171481
+            ],
+            [
+              -131.3581623,
+              55.6170757
+            ],
+            [
+              -131.3583186,
+              55.6170409
+            ],
+            [
+              -131.3583675,
+              55.6170462
+            ],
+            [
+              -131.3584453,
+              55.6170015
+            ],
+            [
+              -131.3585157,
+              55.6168872
+            ],
+            [
+              -131.3584828,
+              55.6168186
+            ],
+            [
+              -131.3584507,
+              55.6167478
+            ],
+            [
+              -131.358171,
+              55.6166259
+            ],
+            [
+              -131.3580637,
+              55.616574
+            ],
+            [
+              -131.3579062,
+              55.6164657
+            ],
+            [
+              -131.3577311,
+              55.6162752
+            ],
+            [
+              -131.3576493,
+              55.6161911
+            ],
+            [
+              -131.3575863,
+              55.6160828
+            ],
+            [
+              -131.3574582,
+              55.6159333
+            ],
+            [
+              -131.3575112,
+              55.6159298
+            ],
+            [
+              -131.3575675,
+              55.6159158
+            ],
+            [
+              -131.3576426,
+              55.6158768
+            ],
+            [
+              -131.3576138,
+              55.6158189
+            ],
+            [
+              -131.3575662,
+              55.6157916
+            ],
+            [
+              -131.3575474,
+              55.6157007
+            ],
+            [
+              -131.3575038,
+              55.6156042
+            ],
+            [
+              -131.3574602,
+              55.6154724
+            ],
+            [
+              -131.3574274,
+              55.6154803
+            ],
+            [
+              -131.3574032,
+              55.6155118
+            ],
+            [
+              -131.3572396,
+              55.6153629
+            ],
+            [
+              -131.3570049,
+              55.6151929
+            ],
+            [
+              -131.3568702,
+              55.6151558
+            ],
+            [
+              -131.3568239,
+              55.6151641
+            ],
+            [
+              -131.3567964,
+              55.6151225
+            ],
+            [
+              -131.3567609,
+              55.6151107
+            ],
+            [
+              -131.356728,
+              55.6151039
+            ],
+            [
+              -131.3566891,
+              55.6150888
+            ],
+            [
+              -131.3566288,
+              55.6150471
+            ],
+            [
+              -131.356561,
+              55.6149896
+            ],
+            [
+              -131.3564375,
+              55.6149125
+            ],
+            [
+              -131.3561433,
+              55.614729
+            ],
+            [
+              -131.3559676,
+              55.6147014
+            ],
+            [
+              -131.3556638,
+              55.6146665
+            ],
+            [
+              -131.3555277,
+              55.6146715
+            ],
+            [
+              -131.3554586,
+              55.6146775
+            ],
+            [
+              -131.3554077,
+              55.6146741
+            ],
+            [
+              -131.355344,
+              55.6146029
+            ],
+            [
+              -131.355346,
+              55.6145423
+            ],
+            [
+              -131.3554244,
+              55.6144991
+            ],
+            [
+              -131.3554037,
+              55.6143783
+            ],
+            [
+              -131.3553312,
+              55.6142996
+            ],
+            [
+              -131.3549638,
+              55.614053
+            ],
+            [
+              -131.3548565,
+              55.6136168
+            ],
+            [
+              -131.3533706,
+              55.6130866
+            ],
+            [
+              -131.3519061,
+              55.6132744
+            ],
+            [
+              -131.3515145,
+              55.613438
+            ],
+            [
+              -131.3507688,
+              55.6139137
+            ],
+            [
+              -131.3500983,
+              55.613747
+            ],
+            [
+              -131.3493365,
+              55.6131108
+            ],
+            [
+              -131.3483548,
+              55.6130472
+            ],
+            [
+              -131.3476521,
+              55.6131744
+            ],
+            [
+              -131.3462949,
+              55.6137985
+            ],
+            [
+              -131.344192,
+              55.6138894
+            ],
+            [
+              -131.3441062,
+              55.6141045
+            ],
+            [
+              -131.3440914,
+              55.6141712
+            ],
+            [
+              -131.3440968,
+              55.6143015
+            ],
+            [
+              -131.3441263,
+              55.6144779
+            ],
+            [
+              -131.3441531,
+              55.6146006
+            ],
+            [
+              -131.3442671,
+              55.6147279
+            ],
+            [
+              -131.3444134,
+              55.6148359
+            ],
+            [
+              -131.3444482,
+              55.6148604
+            ],
+            [
+              -131.3445756,
+              55.614924
+            ],
+            [
+              -131.3447513,
+              55.6149778
+            ],
+            [
+              -131.3450973,
+              55.6150536
+            ],
+            [
+              -131.3450879,
+              55.6150907
+            ],
+            [
+              -131.344986,
+              55.6151301
+            ],
+            [
+              -131.3448384,
+              55.6151513
+            ],
+            [
+              -131.3448975,
+              55.6152694
+            ],
+            [
+              -131.3451013,
+              55.6154542
+            ],
+            [
+              -131.3462412,
+              55.6153891
+            ],
+            [
+              -131.3492882,
+              55.6153648
+            ],
+            [
+              -131.3514447,
+              55.6157829
+            ],
+            [
+              -131.352303,
+              55.6157587
+            ],
+            [
+              -131.353333,
+              55.6153527
+            ],
+            [
+              -131.3545561,
+              55.6158496
+            ],
+            [
+              -131.3563424,
+              55.6163661
+            ],
+            [
+              -131.3569272,
+              55.6168584
+            ],
+            [
+              -131.35708,
+              55.617384
+            ],
+            [
+              -131.3576648,
+              55.6173098
+            ],
+            [
+              -131.3580376,
+              55.6175445
+            ]
+          ]
+        ]
+      },
+      "id": "way/582658887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/587958823",
+        "alt_name": "Alaska Powerline and Telephone",
+        "landuse": "industrial",
+        "man_made": "works",
+        "name": "AP&T",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -135.3144851,
+              59.4543471
+            ],
+            [
+              -135.3138357,
+              59.4540542
+            ],
+            [
+              -135.3130009,
+              59.4544934
+            ],
+            [
+              -135.3135871,
+              59.454791
+            ],
+            [
+              -135.3144851,
+              59.4543471
+            ]
+          ]
+        ]
+      },
+      "id": "way/587958823"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/639275639",
+        "addr:city": "Chugiak",
+        "addr:housenumber": "28705",
+        "addr:postcode": "99567",
+        "addr:state": "AK",
+        "addr:street": "Denaina Elders Road",
+        "alt_name": "Eklutna Generating Station",
+        "landuse": "industrial",
+        "name": "Eklutna Generation Station",
+        "operator": "Matanuska Electric Assn Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "171 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "58989",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2015-02",
+        "wikidata": "Q19461554"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.3350228,
+              61.4598719
+            ],
+            [
+              -149.3350227,
+              61.4599888
+            ],
+            [
+              -149.3350289,
+              61.4609113
+            ],
+            [
+              -149.3350314,
+              61.4613462
+            ],
+            [
+              -149.3350314,
+              61.461722
+            ],
+            [
+              -149.3353042,
+              61.4616825
+            ],
+            [
+              -149.3386733,
+              61.4611957
+            ],
+            [
+              -149.3393856,
+              61.4611064
+            ],
+            [
+              -149.3400859,
+              61.4610359
+            ],
+            [
+              -149.3406566,
+              61.4609898
+            ],
+            [
+              -149.3414848,
+              61.4609429
+            ],
+            [
+              -149.3423131,
+              61.4609099
+            ],
+            [
+              -149.3430764,
+              61.4609024
+            ],
+            [
+              -149.3439185,
+              61.4609071
+            ],
+            [
+              -149.3446241,
+              61.4609311
+            ],
+            [
+              -149.3449505,
+              61.4609499
+            ],
+            [
+              -149.345519,
+              61.4609875
+            ],
+            [
+              -149.3463412,
+              61.4610504
+            ],
+            [
+              -149.3463144,
+              61.4578871
+            ],
+            [
+              -149.3429941,
+              61.458082
+            ],
+            [
+              -149.3419247,
+              61.4585549
+            ],
+            [
+              -149.3416275,
+              61.4586373
+            ],
+            [
+              -149.3411549,
+              61.4586417
+            ],
+            [
+              -149.3410433,
+              61.4584731
+            ],
+            [
+              -149.3402416,
+              61.4585977
+            ],
+            [
+              -149.3393881,
+              61.4587423
+            ],
+            [
+              -149.3385605,
+              61.458956
+            ],
+            [
+              -149.3353032,
+              61.4597972
+            ],
+            [
+              -149.3350228,
+              61.4598719
+            ]
+          ]
+        ]
+      },
+      "id": "way/639275639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/639571813",
+        "landuse": "industrial",
+        "name": "Eklutna Power Plant",
+        "operator": "Matanuska Electric, Anchorage Municipal Light & Power, and Chugach Electric",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "44.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "77",
+        "source": "EsriWorldImagery",
+        "start_date": "1955-07-01",
+        "wikidata": "Q18705938",
+        "wikipedia": "en:Eklutna Dam"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.1505637,
+              61.4753244
+            ],
+            [
+              -149.1504494,
+              61.4750455
+            ],
+            [
+              -149.1496786,
+              61.4751175
+            ],
+            [
+              -149.1497929,
+              61.4753965
+            ],
+            [
+              -149.1505637,
+              61.4753244
+            ]
+          ]
+        ]
+      },
+      "id": "way/639571813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/640477121",
+        "building": "industrial",
+        "landuse": "industrial",
+        "name": "Solomon Gulch Hydroelectric Project",
+        "operator": "Copper Valley Electric Association",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "12 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "390",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1982-07-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -146.3041189,
+              61.0831033
+            ],
+            [
+              -146.3041421,
+              61.0829814
+            ],
+            [
+              -146.3037345,
+              61.0829633
+            ],
+            [
+              -146.3037112,
+              61.0830851
+            ],
+            [
+              -146.3041189,
+              61.0831033
+            ]
+          ]
+        ]
+      },
+      "id": "way/640477121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/669551205",
+        "building": "yes",
+        "ele": "24",
+        "gnis:feature_id": "1420337",
+        "name": "Beaver Falls Power House",
+        "operator": "Ketchikan Public Utilities",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "5.4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6580",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1947-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -131.4707567,
+              55.3795546
+            ],
+            [
+              -131.4706541,
+              55.379489
+            ],
+            [
+              -131.4700559,
+              55.3797906
+            ],
+            [
+              -131.4701586,
+              55.3798563
+            ],
+            [
+              -131.4707567,
+              55.3795546
+            ]
+          ]
+        ]
+      },
+      "id": "way/669551205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/694828758",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Scammon Bay Power Plant",
+        "operator": "Alaska Village Electric Cooperative",
+        "plant:output:electricity": "1.3 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "diesel",
+        "power": "plant",
+        "ref:US:EIA": "57056",
+        "source": "survey",
+        "start_date": "2001-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -165.5814804,
+              61.8431893
+            ],
+            [
+              -165.5817755,
+              61.8433619
+            ],
+            [
+              -165.5819948,
+              61.8433509
+            ],
+            [
+              -165.582303,
+              61.8433247
+            ],
+            [
+              -165.5820827,
+              61.8429098
+            ],
+            [
+              -165.5818018,
+              61.8429437
+            ],
+            [
+              -165.5814339,
+              61.8430448
+            ],
+            [
+              -165.5814663,
+              61.8431139
+            ],
+            [
+              -165.5814582,
+              61.8431406
+            ],
+            [
+              -165.5814804,
+              61.8431893
+            ]
+          ]
+        ]
+      },
+      "id": "way/694828758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696797313",
+        "addr:city": "King Cove",
+        "addr:housenumber": "237",
+        "addr:postcode": "99612",
+        "addr:state": "AK",
+        "addr:street": "Slocum Drive",
+        "landuse": "industrial",
+        "name": "King Cove Powerhouse",
+        "operator": "City of King Cove",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "oil",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -162.2935474,
+              55.0479979
+            ],
+            [
+              -162.2935153,
+              55.0479961
+            ],
+            [
+              -162.2935095,
+              55.0480286
+            ],
+            [
+              -162.293546,
+              55.0480308
+            ],
+            [
+              -162.2935417,
+              55.0480548
+            ],
+            [
+              -162.2939058,
+              55.0480761
+            ],
+            [
+              -162.2939284,
+              55.0479488
+            ],
+            [
+              -162.29356,
+              55.0479273
+            ],
+            [
+              -162.2935474,
+              55.0479979
+            ]
+          ]
+        ]
+      },
+      "id": "way/696797313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/697011613",
+        "building": "industrial",
+        "name": "KC Hydro Plant",
+        "plant:method": "run-of-the-river",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -162.272371,
+              55.1233962
+            ],
+            [
+              -162.2721832,
+              55.1232842
+            ],
+            [
+              -162.2720223,
+              55.1233854
+            ],
+            [
+              -162.2721886,
+              55.1234851
+            ],
+            [
+              -162.272371,
+              55.1233962
+            ]
+          ]
+        ]
+      },
+      "id": "way/697011613"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/714665792",
+        "landuse": "industrial",
+        "name": "Orca Power Plant",
+        "operator": "Cordova Electric Cooperative",
+        "plant:method": "combustion",
+        "plant:output:electricity": "10.7 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "789",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1984-10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -145.7541069,
+              60.5561285
+            ],
+            [
+              -145.754335,
+              60.5558915
+            ],
+            [
+              -145.7540301,
+              60.5558405
+            ],
+            [
+              -145.7535239,
+              60.5557995
+            ],
+            [
+              -145.7532759,
+              60.5557925
+            ],
+            [
+              -145.753093,
+              60.5558415
+            ],
+            [
+              -145.7529568,
+              60.5559145
+            ],
+            [
+              -145.7528612,
+              60.5560314
+            ],
+            [
+              -145.7528247,
+              60.5561573
+            ],
+            [
+              -145.7528267,
+              60.5562622
+            ],
+            [
+              -145.7528633,
+              60.5563861
+            ],
+            [
+              -145.753528,
+              60.5562602
+            ],
+            [
+              -145.7541069,
+              60.5561285
+            ]
+          ]
+        ]
+      },
+      "id": "way/714665792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/714665798",
+        "building": "industrial",
+        "name": "Power Creek Hydroelectric Power Plant",
+        "operator": "Cordova Electric Cooperative",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "6 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "7862",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2001-11"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -145.6048897,
+              60.5887822
+            ],
+            [
+              -145.6049301,
+              60.5886705
+            ],
+            [
+              -145.6049365,
+              60.588653
+            ],
+            [
+              -145.6043893,
+              60.5886052
+            ],
+            [
+              -145.6043566,
+              60.5886957
+            ],
+            [
+              -145.6043425,
+              60.5887344
+            ],
+            [
+              -145.6048897,
+              60.5887822
+            ]
+          ]
+        ]
+      },
+      "id": "way/714665798"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/825752872",
+        "building": "yes",
+        "name": "Allison Creek Hydro",
+        "operator": "Copper Valley Elec Assn, Inc",
+        "plant:output:electricity": "6.5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "58982",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -146.3544676,
+              61.0803491
+            ],
+            [
+              -146.3548322,
+              61.0802884
+            ],
+            [
+              -146.3546912,
+              61.0800904
+            ],
+            [
+              -146.3543266,
+              61.0801511
+            ],
+            [
+              -146.3544676,
+              61.0803491
+            ]
+          ]
+        ]
+      },
+      "id": "way/825752872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/880329593",
+        "landuse": "industrial",
+        "name": "George M. Sullivan Generation Plant 2",
+        "operator": "Anchorage Municipal Light And Power",
+        "plant:method": "combustion",
+        "plant:output:electricity": "346.9 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6559",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1975-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.7205317,
+              61.2294805
+            ],
+            [
+              -149.7205223,
+              61.2289577
+            ],
+            [
+              -149.7190565,
+              61.2289048
+            ],
+            [
+              -149.7187118,
+              61.2289319
+            ],
+            [
+              -149.7184262,
+              61.2290074
+            ],
+            [
+              -149.718284,
+              61.2291294
+            ],
+            [
+              -149.7161691,
+              61.2292633
+            ],
+            [
+              -149.7159624,
+              61.2293313
+            ],
+            [
+              -149.7156569,
+              61.2294968
+            ],
+            [
+              -149.7149861,
+              61.2295519
+            ],
+            [
+              -149.7148466,
+              61.2294458
+            ],
+            [
+              -149.7136916,
+              61.2295434
+            ],
+            [
+              -149.7129313,
+              61.2296299
+            ],
+            [
+              -149.7116329,
+              61.2298363
+            ],
+            [
+              -149.7122128,
+              61.2308715
+            ],
+            [
+              -149.7125967,
+              61.2309239
+            ],
+            [
+              -149.7128971,
+              61.2309461
+            ],
+            [
+              -149.7137066,
+              61.2308249
+            ],
+            [
+              -149.7136768,
+              61.2307632
+            ],
+            [
+              -149.7143611,
+              61.2306821
+            ],
+            [
+              -149.7157612,
+              61.230294
+            ],
+            [
+              -149.7159177,
+              61.2304536
+            ],
+            [
+              -149.7205317,
+              61.2294805
+            ]
+          ]
+        ]
+      },
+      "id": "way/880329593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/880329600",
+        "alt_name": "Anchorage 1",
+        "landuse": "industrial",
+        "name": "Hank Nikkels Plant",
+        "operator": "Chugach Electric Assn Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "77.9 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "75",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1947-00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.8661933,
+              61.2228244
+            ],
+            [
+              -149.8668408,
+              61.2228263
+            ],
+            [
+              -149.868308,
+              61.2225422
+            ],
+            [
+              -149.868278,
+              61.2222921
+            ],
+            [
+              -149.8678949,
+              61.2221758
+            ],
+            [
+              -149.8666933,
+              61.2216945
+            ],
+            [
+              -149.8662226,
+              61.2216015
+            ],
+            [
+              -149.8659463,
+              61.2215718
+            ],
+            [
+              -149.8650585,
+              61.2215421
+            ],
+            [
+              -149.8650451,
+              61.2222698
+            ],
+            [
+              -149.8650518,
+              61.2228161
+            ],
+            [
+              -149.8661933,
+              61.2228244
+            ]
+          ]
+        ]
+      },
+      "id": "way/880329600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/880329609",
+        "landuse": "industrial",
+        "name": "Southcentral Power Plant",
+        "operator": "Chugach Electric Association",
+        "plant:method": "combustion",
+        "plant:output:electricity": "203.9 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "57036",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2013-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.9038721,
+              61.1678702
+            ],
+            [
+              -149.9073994,
+              61.1678599
+            ],
+            [
+              -149.9073977,
+              61.1677274
+            ],
+            [
+              -149.9088429,
+              61.1677232
+            ],
+            [
+              -149.9088402,
+              61.1675104
+            ],
+            [
+              -149.9087454,
+              61.1675107
+            ],
+            [
+              -149.9087337,
+              61.1665767
+            ],
+            [
+              -149.9038561,
+              61.1665909
+            ],
+            [
+              -149.9038721,
+              61.1678702
+            ]
+          ]
+        ]
+      },
+      "id": "way/880329609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/893552154",
+        "landuse": "industrial",
+        "name": "S W Bailey Power Plant",
+        "operator": "Ketchikan Public Utilities",
+        "plant:method": "combustion",
+        "plant:output:electricity": "25.9 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "85",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1969-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -131.6970341,
+              55.3571204
+            ],
+            [
+              -131.6966228,
+              55.3573679
+            ],
+            [
+              -131.696937,
+              55.3575367
+            ],
+            [
+              -131.6971088,
+              55.3574333
+            ],
+            [
+              -131.6973484,
+              55.3572893
+            ],
+            [
+              -131.6970341,
+              55.3571204
+            ]
+          ]
+        ]
+      },
+      "id": "way/893552154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/919964518",
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.8843826,
+              61.1678798
+            ],
+            [
+              -149.8843807,
+              61.1670745
+            ],
+            [
+              -149.8833961,
+              61.1670563
+            ],
+            [
+              -149.8835288,
+              61.1678798
+            ],
+            [
+              -149.8843826,
+              61.1678798
+            ]
+          ]
+        ]
+      },
+      "id": "way/919964518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/923521860",
+        "addr:city": "Fairbanks",
+        "addr:housenumber": "865",
+        "addr:postcode": "99775",
+        "addr:street": "Alumni Drive",
+        "name": "Combined heat and power plant",
+        "operator": "University of Alaska Fairbanks",
+        "plant:output:electricity": "17 MW",
+        "plant:output:steam": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "start_date": "2020"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -147.8205729,
+              64.8544427
+            ],
+            [
+              -147.8206748,
+              64.8541646
+            ],
+            [
+              -147.8207928,
+              64.8538477
+            ],
+            [
+              -147.8209578,
+              64.8534897
+            ],
+            [
+              -147.8206572,
+              64.8534859
+            ],
+            [
+              -147.820349,
+              64.8534737
+            ],
+            [
+              -147.8198181,
+              64.8534459
+            ],
+            [
+              -147.8185824,
+              64.8533832
+            ],
+            [
+              -147.8179847,
+              64.853336
+            ],
+            [
+              -147.8175842,
+              64.8533098
+            ],
+            [
+              -147.8169002,
+              64.8532234
+            ],
+            [
+              -147.816401,
+              64.8531711
+            ],
+            [
+              -147.8156791,
+              64.8532301
+            ],
+            [
+              -147.8158477,
+              64.8532906
+            ],
+            [
+              -147.8164548,
+              64.8535386
+            ],
+            [
+              -147.817104,
+              64.8537669
+            ],
+            [
+              -147.8178885,
+              64.8539097
+            ],
+            [
+              -147.8187852,
+              64.8539891
+            ],
+            [
+              -147.8197098,
+              64.8540328
+            ],
+            [
+              -147.8196117,
+              64.8540883
+            ],
+            [
+              -147.8195103,
+              64.8544174
+            ],
+            [
+              -147.8198912,
+              64.8544357
+            ],
+            [
+              -147.8205729,
+              64.8544427
+            ]
+          ]
+        ]
+      },
+      "id": "way/923521860"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/923521861",
+        "addr:city": "Fairbanks",
+        "addr:country": "US",
+        "addr:housenumber": "875",
+        "addr:postcode": "99775",
+        "addr:state": "AK",
+        "addr:street": "Alumni Drive",
+        "name": "Atkinson Power Plant",
+        "operator": "University of Alaska Fairbanks",
+        "plant:output:electricity": "yes",
+        "plant:output:steam": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "start_date": "1964"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -147.8209578,
+              64.8534897
+            ],
+            [
+              -147.8207928,
+              64.8538477
+            ],
+            [
+              -147.8206748,
+              64.8541646
+            ],
+            [
+              -147.8205729,
+              64.8544427
+            ],
+            [
+              -147.8212805,
+              64.8545109
+            ],
+            [
+              -147.821309,
+              64.8545153
+            ],
+            [
+              -147.8219886,
+              64.8546203
+            ],
+            [
+              -147.8225787,
+              64.8547274
+            ],
+            [
+              -147.8229381,
+              64.8547753
+            ],
+            [
+              -147.8232707,
+              64.8547913
+            ],
+            [
+              -147.8233834,
+              64.8546363
+            ],
+            [
+              -147.8237053,
+              64.8545998
+            ],
+            [
+              -147.8239306,
+              64.8544311
+            ],
+            [
+              -147.8239896,
+              64.854194
+            ],
+            [
+              -147.8243202,
+              64.8541284
+            ],
+            [
+              -147.8245106,
+              64.8540906
+            ],
+            [
+              -147.8245636,
+              64.8540801
+            ],
+            [
+              -147.824688,
+              64.8540605
+            ],
+            [
+              -147.8246273,
+              64.8540109
+            ],
+            [
+              -147.8253418,
+              64.853874
+            ],
+            [
+              -147.8259816,
+              64.8537827
+            ],
+            [
+              -147.8267382,
+              64.8537014
+            ],
+            [
+              -147.8271865,
+              64.8536835
+            ],
+            [
+              -147.825935,
+              64.8536149
+            ],
+            [
+              -147.8257305,
+              64.8536921
+            ],
+            [
+              -147.8253669,
+              64.8536633
+            ],
+            [
+              -147.8249859,
+              64.8536938
+            ],
+            [
+              -147.8244672,
+              64.8536371
+            ],
+            [
+              -147.8235737,
+              64.8535638
+            ],
+            [
+              -147.8230191,
+              64.853611
+            ],
+            [
+              -147.8229575,
+              64.8535324
+            ],
+            [
+              -147.8226721,
+              64.8534843
+            ],
+            [
+              -147.8223763,
+              64.8535446
+            ],
+            [
+              -147.8221771,
+              64.8535463
+            ],
+            [
+              -147.822108,
+              64.8535169
+            ],
+            [
+              -147.8218853,
+              64.8534722
+            ],
+            [
+              -147.8215033,
+              64.8534774
+            ],
+            [
+              -147.8212022,
+              64.8534779
+            ],
+            [
+              -147.8209578,
+              64.8534897
+            ]
+          ]
+        ]
+      },
+      "id": "way/923521861"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/935570321",
+        "name": "USFW Wind Farm",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "yes",
+        "plant:source": "wind",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -162.7149143,
+              55.2093176
+            ],
+            [
+              -162.7150806,
+              55.2091646
+            ],
+            [
+              -162.7151825,
+              55.208886
+            ],
+            [
+              -162.7152684,
+              55.2086442
+            ],
+            [
+              -162.7152094,
+              55.2084269
+            ],
+            [
+              -162.7150538,
+              55.2083289
+            ],
+            [
+              -162.7149733,
+              55.208384
+            ],
+            [
+              -162.7149733,
+              55.2085248
+            ],
+            [
+              -162.7149894,
+              55.2086809
+            ],
+            [
+              -162.7149948,
+              55.2088309
+            ],
+            [
+              -162.7149251,
+              55.2089472
+            ],
+            [
+              -162.7148875,
+              55.2091003
+            ],
+            [
+              -162.7148285,
+              55.2091799
+            ],
+            [
+              -162.7147802,
+              55.2092258
+            ],
+            [
+              -162.7147695,
+              55.2092931
+            ],
+            [
+              -162.7149143,
+              55.2093176
+            ]
+          ]
+        ]
+      },
+      "id": "way/935570321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/960137023",
+        "landuse": "industrial",
+        "name": "Chena Power Geothermal Power Plant",
+        "operator": "Chena Power, LLC",
+        "plant:method": "geothermal",
+        "plant:output:electricity": "400 KW",
+        "plant:source": "geothermal",
+        "power": "plant",
+        "start_date": "2006-07-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -146.0522252,
+              65.0516766
+            ],
+            [
+              -146.0518074,
+              65.0516324
+            ],
+            [
+              -146.0516457,
+              65.0519044
+            ],
+            [
+              -146.0513508,
+              65.0518732
+            ],
+            [
+              -146.0512716,
+              65.0520064
+            ],
+            [
+              -146.0515739,
+              65.0520384
+            ],
+            [
+              -146.0513847,
+              65.0523567
+            ],
+            [
+              -146.0511391,
+              65.0523308
+            ],
+            [
+              -146.0510826,
+              65.0524258
+            ],
+            [
+              -146.0513198,
+              65.0524509
+            ],
+            [
+              -146.0513043,
+              65.0524771
+            ],
+            [
+              -146.0517226,
+              65.0525213
+            ],
+            [
+              -146.0522252,
+              65.0516766
+            ]
+          ]
+        ]
+      },
+      "id": "way/960137023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1001047677",
+        "building": "industrial",
+        "name": "Lake Dorothy Hydroelectric Project",
+        "operator": "Alaska Electric Light&Power Co",
+        "plant:method": "water-storage",
+        "plant:output:electricity": "14.3 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "57085",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2009-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -134.0540975,
+              58.232491
+            ],
+            [
+              -134.0537851,
+              58.2323569
+            ],
+            [
+              -134.0535713,
+              58.2324949
+            ],
+            [
+              -134.0538838,
+              58.232629
+            ],
+            [
+              -134.0540975,
+              58.232491
+            ]
+          ]
+        ]
+      },
+      "id": "way/1001047677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1021768782",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "yes",
+        "plant:source": "solar",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.1133053,
+              61.606514
+            ],
+            [
+              -149.1133574,
+              61.6065073
+            ],
+            [
+              -149.1133331,
+              61.6064643
+            ],
+            [
+              -149.1132809,
+              61.606471
+            ],
+            [
+              -149.1133053,
+              61.606514
+            ]
+          ]
+        ]
+      },
+      "id": "way/1021768782"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1031365493",
+        "landuse": "industrial",
+        "name": "International Generation Turbines (IGT)",
+        "operator": "Chugach Electric Association",
+        "plant:method": "combustion",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6293",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1964-12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.9115637,
+              61.1692116
+            ],
+            [
+              -149.9115721,
+              61.1687736
+            ],
+            [
+              -149.9102309,
+              61.1687676
+            ],
+            [
+              -149.9102225,
+              61.1692057
+            ],
+            [
+              -149.9115637,
+              61.1692116
+            ]
+          ]
+        ]
+      },
+      "id": "way/1031365493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1033705088",
+        "addr:city": "Willow",
+        "addr:housenumber": "20696",
+        "addr:state": "AK",
+        "addr:street": "West Allen Road",
+        "name": "Willow Solar Farm",
+        "operator": "Renewable Independent Power Products",
+        "plant:method": "photovoltaic",
+        "plant:output:electricity": "1.2 MW",
+        "plant:source": "solar",
+        "power": "plant",
+        "source": "https://www.renewableipp.com/projects",
+        "start_date": "2019"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.9686442,
+              61.6892142
+            ],
+            [
+              -149.9686755,
+              61.6889805
+            ],
+            [
+              -149.9686917,
+              61.6888807
+            ],
+            [
+              -149.9687243,
+              61.6887832
+            ],
+            [
+              -149.9688027,
+              61.6886263
+            ],
+            [
+              -149.9688562,
+              61.6885488
+            ],
+            [
+              -149.9689002,
+              61.6884245
+            ],
+            [
+              -149.968949,
+              61.6883443
+            ],
+            [
+              -149.9689757,
+              61.6881964
+            ],
+            [
+              -149.9689863,
+              61.6881483
+            ],
+            [
+              -149.9690188,
+              61.6880966
+            ],
+            [
+              -149.9690838,
+              61.6880286
+            ],
+            [
+              -149.9691335,
+              61.6879706
+            ],
+            [
+              -149.9691651,
+              61.687922
+            ],
+            [
+              -149.9691823,
+              61.6877828
+            ],
+            [
+              -149.9691813,
+              61.6876649
+            ],
+            [
+              -149.9691737,
+              61.6875148
+            ],
+            [
+              -149.9685015,
+              61.6872846
+            ],
+            [
+              -149.9682391,
+              61.6872138
+            ],
+            [
+              -149.9679947,
+              61.687176
+            ],
+            [
+              -149.9678171,
+              61.6871589
+            ],
+            [
+              -149.9676859,
+              61.6871601
+            ],
+            [
+              -149.9674904,
+              61.6871674
+            ],
+            [
+              -149.9672614,
+              61.6871918
+            ],
+            [
+              -149.967143,
+              61.6872235
+            ],
+            [
+              -149.9670066,
+              61.6872724
+            ],
+            [
+              -149.9668317,
+              61.6873407
+            ],
+            [
+              -149.9666387,
+              61.6874029
+            ],
+            [
+              -149.9663634,
+              61.6874749
+            ],
+            [
+              -149.9656764,
+              61.6876848
+            ],
+            [
+              -149.9654963,
+              61.6877824
+            ],
+            [
+              -149.9653544,
+              61.6878675
+            ],
+            [
+              -149.9653011,
+              61.6879024
+            ],
+            [
+              -149.9652808,
+              61.6879445
+            ],
+            [
+              -149.9652694,
+              61.6879914
+            ],
+            [
+              -149.9652173,
+              61.6882057
+            ],
+            [
+              -149.9650727,
+              61.6885547
+            ],
+            [
+              -149.9650105,
+              61.6887015
+            ],
+            [
+              -149.9649953,
+              61.688752
+            ],
+            [
+              -149.9649914,
+              61.6887881
+            ],
+            [
+              -149.9649717,
+              61.6889448
+            ],
+            [
+              -149.9649835,
+              61.6892245
+            ],
+            [
+              -149.9686442,
+              61.6892142
+            ]
+          ]
+        ]
+      },
+      "id": "way/1033705088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1038114306",
+        "landuse": "industrial",
+        "name": "McRobert's Creek Generation House",
+        "plant:output:electricity": "125 kW",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -148.9813043,
+              61.5996942
+            ],
+            [
+              -148.9813788,
+              61.599653
+            ],
+            [
+              -148.9812604,
+              61.5996045
+            ],
+            [
+              -148.9811859,
+              61.5996456
+            ],
+            [
+              -148.9813043,
+              61.5996942
+            ]
+          ]
+        ]
+      },
+      "id": "way/1038114306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1042400003",
+        "landuse": "industrial",
+        "name": "Purple Lake Hydro Power Plant",
+        "operator": "Metlakatla Power & Light",
+        "plant:output:electricity": "3.9 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "6302",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1956-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -131.545034,
+              55.0928204
+            ],
+            [
+              -131.5449896,
+              55.0925907
+            ],
+            [
+              -131.5447881,
+              55.0926034
+            ],
+            [
+              -131.5448326,
+              55.0928332
+            ],
+            [
+              -131.545034,
+              55.0928204
+            ]
+          ]
+        ]
+      },
+      "id": "way/1042400003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1059983094",
+        "name": "Ketchikan Power Plant",
+        "operator": "Ketchikan Public Utilities",
+        "plant:output:electricity": "4.2 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "84",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "1938-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -131.6336239,
+              55.3446297
+            ],
+            [
+              -131.633291,
+              55.344551
+            ],
+            [
+              -131.6331361,
+              55.3447629
+            ],
+            [
+              -131.633469,
+              55.3448416
+            ],
+            [
+              -131.6336239,
+              55.3446297
+            ]
+          ]
+        ]
+      },
+      "id": "way/1059983094"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1083307443",
+        "landuse": "industrial",
+        "name": "AVEC Powerplant",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -164.5311373,
+              62.7776968
+            ],
+            [
+              -164.5305425,
+              62.7776746
+            ],
+            [
+              -164.5305226,
+              62.7777861
+            ],
+            [
+              -164.5311174,
+              62.7778083
+            ],
+            [
+              -164.5311373,
+              62.7776968
+            ]
+          ]
+        ]
+      },
+      "id": "way/1083307443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944572",
+        "landuse": "industrial",
+        "name": "Utility Plants Section",
+        "operator": "Doyon Utilities - Ft. Wainwright",
+        "plant:output:electricity": "20 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "50308",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1945-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -147.643472,
+              64.8251108
+            ],
+            [
+              -147.643429,
+              64.8263133
+            ],
+            [
+              -147.6489329,
+              64.8262951
+            ],
+            [
+              -147.6489544,
+              64.8261536
+            ],
+            [
+              -147.6509714,
+              64.8261239
+            ],
+            [
+              -147.6514864,
+              64.8258912
+            ],
+            [
+              -147.6527202,
+              64.8259094
+            ],
+            [
+              -147.6537502,
+              64.8261467
+            ],
+            [
+              -147.6540935,
+              64.8257497
+            ],
+            [
+              -147.6529455,
+              64.8257086
+            ],
+            [
+              -147.6516152,
+              64.8253435
+            ],
+            [
+              -147.6507247,
+              64.8251062
+            ],
+            [
+              -147.6499629,
+              64.8250012
+            ],
+            [
+              -147.643472,
+              64.8251108
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944572"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944574",
+        "landuse": "industrial",
+        "name": "Delta Power",
+        "operator": "Golden Valley Elec Assn Inc",
+        "plant:output:electricity": "23.1 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "56325",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1976-11"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -145.7175063,
+              64.0278848
+            ],
+            [
+              -145.7168359,
+              64.0283765
+            ],
+            [
+              -145.7200652,
+              64.0283459
+            ],
+            [
+              -145.7206929,
+              64.028252
+            ],
+            [
+              -145.7211703,
+              64.028104
+            ],
+            [
+              -145.7220125,
+              64.0276647
+            ],
+            [
+              -145.721443,
+              64.0274421
+            ],
+            [
+              -145.7208558,
+              64.0274399
+            ],
+            [
+              -145.7208539,
+              64.027536
+            ],
+            [
+              -145.7206189,
+              64.0275351
+            ],
+            [
+              -145.7205814,
+              64.027474
+            ],
+            [
+              -145.7201285,
+              64.0274724
+            ],
+            [
+              -145.7201333,
+              64.0272237
+            ],
+            [
+              -145.7194291,
+              64.0272159
+            ],
+            [
+              -145.7194333,
+              64.0278825
+            ],
+            [
+              -145.7175063,
+              64.0278848
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944575",
+        "landuse": "industrial",
+        "name": "Aurora Energy",
+        "operator": "Aurora Energy LLC",
+        "plant:method": "combustion",
+        "plant:output:electricity": "27.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "coal",
+        "power": "plant",
+        "ref:US:EIA": "79",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1952-06"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -147.7356556,
+              64.8481307
+            ],
+            [
+              -147.7360886,
+              64.847168
+            ],
+            [
+              -147.7333313,
+              64.8469742
+            ],
+            [
+              -147.7326715,
+              64.846883
+            ],
+            [
+              -147.7322638,
+              64.8467941
+            ],
+            [
+              -147.7321404,
+              64.8468511
+            ],
+            [
+              -147.7320336,
+              64.8469086
+            ],
+            [
+              -147.7325485,
+              64.8472077
+            ],
+            [
+              -147.7327889,
+              64.8473026
+            ],
+            [
+              -147.7330893,
+              64.8474412
+            ],
+            [
+              -147.7331665,
+              64.8475434
+            ],
+            [
+              -147.7333553,
+              64.8476163
+            ],
+            [
+              -147.7335442,
+              64.8476637
+            ],
+            [
+              -147.7337158,
+              64.8477404
+            ],
+            [
+              -147.7340334,
+              64.8478279
+            ],
+            [
+              -147.7344368,
+              64.8479373
+            ],
+            [
+              -147.7348316,
+              64.8480067
+            ],
+            [
+              -147.7350805,
+              64.8480395
+            ],
+            [
+              -147.7354754,
+              64.8481052
+            ],
+            [
+              -147.7356556,
+              64.8481307
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944576",
+        "landuse": "industrial",
+        "name": "Jarvis Street Power Plant",
+        "operator": "City & Borough of Sitka - (AK)",
+        "plant:output:electricity": "25.6 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "6801",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1979-08"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -135.3132311,
+              57.0495907
+            ],
+            [
+              -135.3115332,
+              57.0501466
+            ],
+            [
+              -135.3119302,
+              57.0504908
+            ],
+            [
+              -135.3123057,
+              57.0503829
+            ],
+            [
+              -135.3129548,
+              57.0504588
+            ],
+            [
+              -135.3139418,
+              57.0499875
+            ],
+            [
+              -135.3132311,
+              57.0495907
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944577",
+        "name": "Annex Creek Power Plant",
+        "operator": "Alaska Electric Light&Power Co",
+        "plant:output:electricity": "4 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "62",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1915-12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -134.1010575,
+              58.3177774
+            ],
+            [
+              -134.1012345,
+              58.3176216
+            ],
+            [
+              -134.1010323,
+              58.3175582
+            ],
+            [
+              -134.1008553,
+              58.317714
+            ],
+            [
+              -134.1010575,
+              58.3177774
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944577"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944578",
+        "name": "Whitman power Plant",
+        "operator": "Ketchikan Public Utilities",
+        "plant:output:electricity": "4.8 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "58977",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2015-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -131.5311902,
+              55.3282372
+            ],
+            [
+              -131.5311877,
+              55.328103
+            ],
+            [
+              -131.530898,
+              55.3281046
+            ],
+            [
+              -131.5309005,
+              55.3282389
+            ],
+            [
+              -131.5311902,
+              55.3282372
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944579",
+        "name": "Hiilangaay Hydro",
+        "operator": "Haida Energy, Inc.",
+        "plant:output:electricity": "5 MW",
+        "plant:source": "hydro",
+        "power": "plant",
+        "ref:US:EIA": "59037",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2021-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -132.6015298,
+              55.2159768
+            ],
+            [
+              -132.6017847,
+              55.2159048
+            ],
+            [
+              -132.601664,
+              55.2157656
+            ],
+            [
+              -132.6014091,
+              55.2158375
+            ],
+            [
+              -132.6015298,
+              55.2159768
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944579"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944580",
+        "landuse": "industrial",
+        "name": "Industrial Plant",
+        "operator": "Alaska Electric Light&Power Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "41.7 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "59793",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-11"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -134.6078879,
+              58.3686531
+            ],
+            [
+              -134.6078825,
+              58.3683492
+            ],
+            [
+              -134.6096635,
+              58.3683549
+            ],
+            [
+              -134.6091217,
+              58.3668975
+            ],
+            [
+              -134.606477,
+              58.36692
+            ],
+            [
+              -134.6065521,
+              58.3683999
+            ],
+            [
+              -134.6078879,
+              58.3686531
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944581",
+        "alt_name": "Fairbanks Power Plant",
+        "landuse": "industrial",
+        "name": "Zehnder Power Plant",
+        "operator": "Golden Valley Elec Assn Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "42.2 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "6286",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021;https://dec.alaska.gov/media/7378/zehnder-prelim-bact-determination.pdf",
+        "start_date": "1970-05"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -147.7188193,
+              64.854659
+            ],
+            [
+              -147.7211863,
+              64.8544267
+            ],
+            [
+              -147.7215779,
+              64.8541464
+            ],
+            [
+              -147.7190888,
+              64.8537497
+            ],
+            [
+              -147.7180159,
+              64.8534716
+            ],
+            [
+              -147.7176404,
+              64.8537361
+            ],
+            [
+              -147.7171737,
+              64.8538911
+            ],
+            [
+              -147.7170932,
+              64.8541327
+            ],
+            [
+              -147.717255,
+              64.8543823
+            ],
+            [
+              -147.7174319,
+              64.8543101
+            ],
+            [
+              -147.7185291,
+              64.8542078
+            ],
+            [
+              -147.7188193,
+              64.854659
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944582",
+        "landuse": "industrial",
+        "name": "Auke Bay Power Plant",
+        "operator": "Alaska Electric Light&Power Co",
+        "plant:output:electricity": "36.2 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "7250",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1980-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -134.6440843,
+              58.3872362
+            ],
+            [
+              -134.6438375,
+              58.3876158
+            ],
+            [
+              -134.6438268,
+              58.3877943
+            ],
+            [
+              -134.6445859,
+              58.3880432
+            ],
+            [
+              -134.6451169,
+              58.3874696
+            ],
+            [
+              -134.6440843,
+              58.3872362
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944583",
+        "landuse": "industrial",
+        "name": "Lemon Creek Power Plant",
+        "operator": "Alaska Electric Light&Power Co",
+        "plant:output:electricity": "61.7 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "64",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1969-08"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -134.4944841,
+              58.3539614
+            ],
+            [
+              -134.4955328,
+              58.3540514
+            ],
+            [
+              -134.4959673,
+              58.3539881
+            ],
+            [
+              -134.4959164,
+              58.3538995
+            ],
+            [
+              -134.4959968,
+              58.3538375
+            ],
+            [
+              -134.496654,
+              58.3537404
+            ],
+            [
+              -134.4963643,
+              58.3531747
+            ],
+            [
+              -134.4944733,
+              58.3534435
+            ],
+            [
+              -134.4944841,
+              58.3539614
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944584",
+        "name": "North Pole Power Plant",
+        "operator": "Golden Valley Elec Assn Inc",
+        "plant:output:electricity": "181 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "6285",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1976-12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -147.3532516,
+              64.7354577
+            ],
+            [
+              -147.353316,
+              64.7335551
+            ],
+            [
+              -147.3487616,
+              64.7335505
+            ],
+            [
+              -147.3487133,
+              64.7342466
+            ],
+            [
+              -147.3474795,
+              64.7342443
+            ],
+            [
+              -147.3474687,
+              64.7348327
+            ],
+            [
+              -147.3487616,
+              64.7348258
+            ],
+            [
+              -147.3487938,
+              64.7354555
+            ],
+            [
+              -147.3532516,
+              64.7354577
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944586",
+        "landuse": "industrial",
+        "name": "Bernice Lake Power Plant",
+        "operator": "Homer Electric Assn Inc",
+        "plant:output:electricity": "76.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6292",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1971-11"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -151.3866663,
+              60.6940166
+            ],
+            [
+              -151.3883212,
+              60.6940153
+            ],
+            [
+              -151.3883212,
+              60.6931252
+            ],
+            [
+              -151.3866448,
+              60.6931304
+            ],
+            [
+              -151.3866474,
+              60.6932353
+            ],
+            [
+              -151.3866632,
+              60.6938893
+            ],
+            [
+              -151.3866663,
+              60.6940166
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944587",
+        "name": "Agrium Kenai Nitrogen Operations",
+        "operator": "Agrium US Inc",
+        "plant:output:electricity": "12.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "54452",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1968-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -151.3785931,
+              60.6751702
+            ],
+            [
+              -151.378472,
+              60.67501
+            ],
+            [
+              -151.3778791,
+              60.6751175
+            ],
+            [
+              -151.3780002,
+              60.6752777
+            ],
+            [
+              -151.3785931,
+              60.6751702
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944589",
+        "landuse": "industrial",
+        "name": "Nikiski Combined Cycle",
+        "operator": "Homer Electric Assn Inc",
+        "plant:output:electricity": "80.8 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55966",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1986-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -151.3782279,
+              60.6774085
+            ],
+            [
+              -151.3793787,
+              60.677415
+            ],
+            [
+              -151.3791105,
+              60.6770459
+            ],
+            [
+              -151.3789254,
+              60.6770801
+            ],
+            [
+              -151.3785902,
+              60.6766532
+            ],
+            [
+              -151.3788611,
+              60.6765967
+            ],
+            [
+              -151.3776433,
+              60.6750282
+            ],
+            [
+              -151.3772584,
+              60.6750991
+            ],
+            [
+              -151.3764831,
+              60.6752419
+            ],
+            [
+              -151.3782279,
+              60.6774085
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944590",
+        "landuse": "industrial",
+        "name": "Eielson AFB Central Heat & Power Plant",
+        "operator": "U S Air Force-Eielson AFB",
+        "plant:method": "combustion",
+        "plant:output:electricity": "31 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "oil;coal",
+        "power": "plant",
+        "ref:US:EIA": "50392",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1952-10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -147.0764691,
+              64.672847
+            ],
+            [
+              -147.0776331,
+              64.6723559
+            ],
+            [
+              -147.0786631,
+              64.6726267
+            ],
+            [
+              -147.0795912,
+              64.6724477
+            ],
+            [
+              -147.0778263,
+              64.6705613
+            ],
+            [
+              -147.0764637,
+              64.6704695
+            ],
+            [
+              -147.0738995,
+              64.667674
+            ],
+            [
+              -147.0705092,
+              64.668358
+            ],
+            [
+              -147.0724297,
+              64.6709055
+            ],
+            [
+              -147.074275,
+              64.6720828
+            ],
+            [
+              -147.0761204,
+              64.672746
+            ],
+            [
+              -147.076276,
+              64.6727552
+            ],
+            [
+              -147.0764691,
+              64.672847
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944590"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1100686141",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Togiak Power Plant",
+        "operator": "Alaska Village Electric Cooperative",
+        "plant:source": "oil",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -160.3782758,
+              59.0600169
+            ],
+            [
+              -160.3793004,
+              59.0593232
+            ],
+            [
+              -160.3784448,
+              59.0590033
+            ],
+            [
+              -160.378316,
+              59.0590874
+            ],
+            [
+              -160.3781337,
+              59.0590226
+            ],
+            [
+              -160.3778923,
+              59.0590557
+            ],
+            [
+              -160.3772646,
+              59.0594859
+            ],
+            [
+              -160.3777903,
+              59.0597093
+            ],
+            [
+              -160.3779513,
+              59.0598831
+            ],
+            [
+              -160.3782758,
+              59.0600169
+            ]
+          ]
+        ]
+      },
+      "id": "way/1100686141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1105267059",
+        "name": "Tazimina Hydroelectric Project",
+        "operator": "INNEC",
+        "plant:method": "run-of-the-river",
+        "plant:output:electricity": "824 kW",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -154.6991837,
+              59.8982741
+            ],
+            [
+              -154.6973169,
+              59.8989844
+            ],
+            [
+              -154.6976924,
+              59.8996085
+            ],
+            [
+              -154.6997523,
+              59.8989897
+            ],
+            [
+              -154.6991837,
+              59.8982741
+            ]
+          ]
+        ]
+      },
+      "id": "way/1105267059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1177112603",
+        "landuse": "industrial",
+        "name": "Dillingham",
+        "operator": "Nushagak Electric Coop, Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "11 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "109",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1961-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -158.4692377,
+              59.0420199
+            ],
+            [
+              -158.4688944,
+              59.0423125
+            ],
+            [
+              -158.4687656,
+              59.0423621
+            ],
+            [
+              -158.4686905,
+              59.0425443
+            ],
+            [
+              -158.4687012,
+              59.0427816
+            ],
+            [
+              -158.4688622,
+              59.0434549
+            ],
+            [
+              -158.4689105,
+              59.0438274
+            ],
+            [
+              -158.4689158,
+              59.0439791
+            ],
+            [
+              -158.469125,
+              59.044313
+            ],
+            [
+              -158.4691572,
+              59.0445227
+            ],
+            [
+              -158.4690392,
+              59.0447518
+            ],
+            [
+              -158.4689748,
+              59.0449063
+            ],
+            [
+              -158.4690177,
+              59.0450994
+            ],
+            [
+              -158.4693396,
+              59.0450773
+            ],
+            [
+              -158.4695596,
+              59.0449863
+            ],
+            [
+              -158.469758,
+              59.0450111
+            ],
+            [
+              -158.4699243,
+              59.0450194
+            ],
+            [
+              -158.4699565,
+              59.0446883
+            ],
+            [
+              -158.4699726,
+              59.0440095
+            ],
+            [
+              -158.4699619,
+              59.0435984
+            ],
+            [
+              -158.4698653,
+              59.0431886
+            ],
+            [
+              -158.4696347,
+              59.0422048
+            ],
+            [
+              -158.4695381,
+              59.0420738
+            ],
+            [
+              -158.4692377,
+              59.0420199
+            ]
+          ]
+        ]
+      },
+      "id": "way/1177112603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221025412",
+        "landuse": "industrial",
+        "name": "Tenakee Springs Power Plant",
+        "operator": "City of Tenakee Springs",
+        "plant:source": "oil",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -135.2192733,
+              57.7804585
+            ],
+            [
+              -135.2192545,
+              57.7807288
+            ],
+            [
+              -135.2191928,
+              57.7808589
+            ],
+            [
+              -135.2198204,
+              57.7808532
+            ],
+            [
+              -135.2198231,
+              57.7804571
+            ],
+            [
+              -135.2192733,
+              57.7804585
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221025412"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1238431184",
+        "landuse": "industrial",
+        "name": "Dutch Harbor Power Plant",
+        "operator": "City of Unalaska - (AK)",
+        "power": "plant",
+        "ref:US:EIA": "7502",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1985-10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -166.5376412,
+              53.8926272
+            ],
+            [
+              -166.5374914,
+              53.8929654
+            ],
+            [
+              -166.5374237,
+              53.8931116
+            ],
+            [
+              -166.5374348,
+              53.89318
+            ],
+            [
+              -166.5374091,
+              53.8934284
+            ],
+            [
+              -166.5383076,
+              53.8935596
+            ],
+            [
+              -166.5385085,
+              53.8932997
+            ],
+            [
+              -166.5386466,
+              53.8931503
+            ],
+            [
+              -166.5387206,
+              53.8931485
+            ],
+            [
+              -166.5386791,
+              53.8929321
+            ],
+            [
+              -166.5386939,
+              53.8928042
+            ],
+            [
+              -166.538724,
+              53.8926618
+            ],
+            [
+              -166.5388112,
+              53.8925633
+            ],
+            [
+              -166.538934,
+              53.8924554
+            ],
+            [
+              -166.5390355,
+              53.8923983
+            ],
+            [
+              -166.5391254,
+              53.8923537
+            ],
+            [
+              -166.5390224,
+              53.8922266
+            ],
+            [
+              -166.5386958,
+              53.8919078
+            ],
+            [
+              -166.5377577,
+              53.8923338
+            ],
+            [
+              -166.5376412,
+              53.8926272
+            ]
+          ]
+        ]
+      },
+      "id": "way/1238431184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1274217121",
+        "landuse": "industrial",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -176.6601002,
+              51.8690689
+            ],
+            [
+              -176.6594088,
+              51.8694366
+            ],
+            [
+              -176.6588486,
+              51.8699789
+            ],
+            [
+              -176.6586164,
+              51.8707673
+            ],
+            [
+              -176.6592978,
+              51.8709698
+            ],
+            [
+              -176.6598428,
+              51.8707548
+            ],
+            [
+              -176.6601406,
+              51.8705398
+            ],
+            [
+              -176.6602567,
+              51.8702718
+            ],
+            [
+              -176.6601608,
+              51.8697701
+            ],
+            [
+              -176.6602113,
+              51.8695021
+            ],
+            [
+              -176.6601002,
+              51.8690689
+            ]
+          ]
+        ]
+      },
+      "id": "way/1274217121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1288951845",
+        "name": "South Fork Eagle River powerhouse",
+        "operator": "Southfork Hydro LLC",
+        "plant:output:electricity": "yes",
+        "plant:source": "hydro",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.4774339,
+              61.2816347
+            ],
+            [
+              -149.4773771,
+              61.2815324
+            ],
+            [
+              -149.4772139,
+              61.2815533
+            ],
+            [
+              -149.4772706,
+              61.2816556
+            ],
+            [
+              -149.4774339,
+              61.2816347
+            ]
+          ]
+        ]
+      },
+      "id": "way/1288951845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1158795867",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -162.5569056,
+            66.8400671
+          ],
+          [
+            -162.5519552,
+            66.8400542
+          ],
+          [
+            -162.5519119,
+            66.8375113
+          ],
+          [
+            -162.5569913,
+            66.8374992
+          ],
+          [
+            -162.5569056,
+            66.8400671
+          ]
+        ]
+      },
+      "id": "way/1158795867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780288",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4312881,
+          64.5667376
+        ]
+      },
+      "id": "node/2145780288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780306",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4287146,
+          64.5678836
+        ]
+      },
+      "id": "node/2145780306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780355",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4273304,
+          64.5684405
+        ]
+      },
+      "id": "node/2145780355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780365",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4288267,
+          64.5686584
+        ]
+      },
+      "id": "node/2145780365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780380",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4274047,
+          64.5691206
+        ]
+      },
+      "id": "node/2145780380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780407",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4275013,
+          64.5698147
+        ]
+      },
+      "id": "node/2145780407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780442",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4276817,
+          64.5705421
+        ]
+      },
+      "id": "node/2145780442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780468",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4263991,
+          64.5703183
+        ]
+      },
+      "id": "node/2145780468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780484",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4274297,
+          64.5711726
+        ]
+      },
+      "id": "node/2145780484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780522",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4276485,
+          64.5717312
+        ]
+      },
+      "id": "node/2145780522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780544",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4265819,
+          64.5720424
+        ]
+      },
+      "id": "node/2145780544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780562",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4253393,
+          64.5722269
+        ]
+      },
+      "id": "node/2145780562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519436",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5572828,
+          66.8350321
+        ]
+      },
+      "id": "node/2153519436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519437",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5572985,
+          66.8357264
+        ]
+      },
+      "id": "node/2153519437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519441",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5572889,
+          66.8364081
+        ]
+      },
+      "id": "node/2153519441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519448",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5573035,
+          66.8371465
+        ]
+      },
+      "id": "node/2153519448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519457",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5573299,
+          66.8378793
+        ]
+      },
+      "id": "node/2153519457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519513",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5632342,
+          66.8385179
+        ]
+      },
+      "id": "node/2153519513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519516",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5573134,
+          66.8385231
+        ]
+      },
+      "id": "node/2153519516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519520",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5514764,
+          66.8385419
+        ]
+      },
+      "id": "node/2153519520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519533",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5632237,
+          66.8392065
+        ]
+      },
+      "id": "node/2153519533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519535",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5515014,
+          66.8392205
+        ]
+      },
+      "id": "node/2153519535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519536",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5573,
+          66.8392278
+        ]
+      },
+      "id": "node/2153519536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519541",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5631811,
+          66.8398778
+        ]
+      },
+      "id": "node/2153519541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519542",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5515177,
+          66.8398854
+        ]
+      },
+      "id": "node/2153519542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519543",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5573238,
+          66.8399011
+        ]
+      },
+      "id": "node/2153519543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2665908651",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164985,
+            "reltags": {
+              "name": "Sand Point Wind Farm",
+              "operator": "TDX Sand Point Generating, LLC",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "0.5 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "1",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2011-10",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.4905776,
+          55.3448477
+        ]
+      },
+      "id": "node/2665908651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2666157529",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164985,
+            "reltags": {
+              "name": "Sand Point Wind Farm",
+              "operator": "TDX Sand Point Generating, LLC",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "0.5 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "1",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2011-10",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.4890971,
+          55.3436397
+        ]
+      },
+      "id": "node/2666157529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960204023",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4327083,
+          64.5623793
+        ]
+      },
+      "id": "node/5960204023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960204022",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4314315,
+          64.5623793
+        ]
+      },
+      "id": "node/5960204022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960204020",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4345429,
+          64.5642088
+        ]
+      },
+      "id": "node/5960204020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960204021",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4336953,
+          64.5651718
+        ]
+      },
+      "id": "node/5960204021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960204024",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4332984,
+          64.5632226
+        ]
+      },
+      "id": "node/5960204024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960204025",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4347575,
+          64.5633793
+        ]
+      },
+      "id": "node/5960204025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6089180089",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5632355,
+          66.8366203
+        ]
+      },
+      "id": "node/6089180089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6089180088",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5572461,
+          66.8343592
+        ]
+      },
+      "id": "node/6089180088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6089227812",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5601161,
+          66.8315059
+        ]
+      },
+      "id": "node/6089227812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9758545375",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5632811,
+          66.837841
+        ]
+      },
+      "id": "node/9758545375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6089180087",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5515008,
+          66.8378705
+        ]
+      },
+      "id": "node/6089180087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6897269210",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164987,
+            "reltags": {
+              "name": "Pillar Mountain Wind Project Microgrid",
+              "operator": "Kodiak Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57187",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2009-06",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4601561,
+          57.7833614
+        ]
+      },
+      "id": "node/6897269210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6897269208",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164987,
+            "reltags": {
+              "name": "Pillar Mountain Wind Project Microgrid",
+              "operator": "Kodiak Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57187",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2009-06",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4504197,
+          57.7857408
+        ]
+      },
+      "id": "node/6897269208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6897269209",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164987,
+            "reltags": {
+              "name": "Pillar Mountain Wind Project Microgrid",
+              "operator": "Kodiak Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57187",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2009-06",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4551833,
+          57.7845225
+        ]
+      },
+      "id": "node/6897269209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6897269207",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164987,
+            "reltags": {
+              "name": "Pillar Mountain Wind Project Microgrid",
+              "operator": "Kodiak Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57187",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2009-06",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4461603,
+          57.786204
+        ]
+      },
+      "id": "node/6897269207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6897269206",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164987,
+            "reltags": {
+              "name": "Pillar Mountain Wind Project Microgrid",
+              "operator": "Kodiak Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57187",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2009-06",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4433279,
+          57.7869418
+        ]
+      },
+      "id": "node/6897269206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6897269205",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164987,
+            "reltags": {
+              "name": "Pillar Mountain Wind Project Microgrid",
+              "operator": "Kodiak Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57187",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2009-06",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4407101,
+          57.7870962
+        ]
+      },
+      "id": "node/6897269205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868432719",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9449051,
+          64.0689537
+        ]
+      },
+      "id": "node/8868432719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868432717",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9283697,
+          64.0710957
+        ]
+      },
+      "id": "node/8868432717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868432718",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9360222,
+          64.0716235
+        ]
+      },
+      "id": "node/8868432718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419810",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9124088,
+          64.0616686
+        ]
+      },
+      "id": "node/8868419810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419816",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9188071,
+          64.0707524
+        ]
+      },
+      "id": "node/8868419816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419809",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9038985,
+          64.0599336
+        ]
+      },
+      "id": "node/8868419809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419815",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.908178,
+          64.0719002
+        ]
+      },
+      "id": "node/8868419815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419807",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8851904,
+          64.0580932
+        ]
+      },
+      "id": "node/8868419807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419808",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8933899,
+          64.0584747
+        ]
+      },
+      "id": "node/8868419808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419811",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8769759,
+          64.0615987
+        ]
+      },
+      "id": "node/8868419811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419812",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8687574,
+          64.0607348
+        ]
+      },
+      "id": "node/8868419812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419813",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8589775,
+          64.0627662
+        ]
+      },
+      "id": "node/8868419813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4937921177",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164986,
+            "reltags": {
+              "name": "Delta Wind Farm",
+              "operator": "Alaska Environmental Power",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "1.9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "58511",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2008-09",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.5950153,
+          64.0143693
+        ]
+      },
+      "id": "node/4937921177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4937921179",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164986,
+            "reltags": {
+              "name": "Delta Wind Farm",
+              "operator": "Alaska Environmental Power",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "1.9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "58511",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2008-09",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.5979389,
+          64.0148417
+        ]
+      },
+      "id": "node/4937921179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9758545376",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164986,
+            "reltags": {
+              "name": "Delta Wind Farm",
+              "operator": "Alaska Environmental Power",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "1.9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "58511",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2008-09",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.5959702,
+          64.0134785
+        ]
+      },
+      "id": "node/9758545376"
+    }
+  ]
+}

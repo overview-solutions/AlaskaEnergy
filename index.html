@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>Remote Monitoring Map using Mapbox</title>
+    <link rel="stylesheet" href="css/main.css">
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.js'></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.44.0/mapbox-gl.css' rel='stylesheet' />
+</head>
+<body>
+    <div data-tap-disabled="true">
+    <div id='map'></div>
+    </div>
+    <div class='map-overlay' id='features'>
+        <h2>IEEE Smart Village - Alaska Energy Map</h2>
+        <div id='pd'>
+            <p>Hover over a point to see details on each site.</p>
+        </div>
+    </div>
+    <div class='map-overlay' id='legend'></div>
+<script  src="js/main.js"></script>  	
+</body>
+</html>

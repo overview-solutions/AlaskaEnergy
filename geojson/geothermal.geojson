@@ -1,0 +1,82 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-06-25T05:53:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/960137023",
+        "landuse": "industrial",
+        "name": "Chena Power Geothermal Power Plant",
+        "operator": "Chena Power, LLC",
+        "plant:method": "geothermal",
+        "plant:output:electricity": "400 KW",
+        "plant:source": "geothermal",
+        "power": "plant",
+        "start_date": "2006-07-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -146.0522252,
+              65.0516766
+            ],
+            [
+              -146.0518074,
+              65.0516324
+            ],
+            [
+              -146.0516457,
+              65.0519044
+            ],
+            [
+              -146.0513508,
+              65.0518732
+            ],
+            [
+              -146.0512716,
+              65.0520064
+            ],
+            [
+              -146.0515739,
+              65.0520384
+            ],
+            [
+              -146.0513847,
+              65.0523567
+            ],
+            [
+              -146.0511391,
+              65.0523308
+            ],
+            [
+              -146.0510826,
+              65.0524258
+            ],
+            [
+              -146.0513198,
+              65.0524509
+            ],
+            [
+              -146.0513043,
+              65.0524771
+            ],
+            [
+              -146.0517226,
+              65.0525213
+            ],
+            [
+              -146.0522252,
+              65.0516766
+            ]
+          ]
+        ]
+      },
+      "id": "way/960137023"
+    }
+  ]
+}

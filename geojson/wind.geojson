@@ -1,0 +1,2148 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-06-25T05:51:42Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/571766699",
+        "operator": "Fire Island Wind",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "18 MW",
+        "plant:source": "wind",
+        "power": "plant",
+        "ref:US:EIA": "58425",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+        "start_date": "2012-09",
+        "website": "https://fireislandwind.com/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -150.2695153,
+              61.1260541
+            ],
+            [
+              -150.269451,
+              61.1241682
+            ],
+            [
+              -150.2584861,
+              61.1243858
+            ],
+            [
+              -150.2480362,
+              61.1241993
+            ],
+            [
+              -150.2383802,
+              61.1237848
+            ],
+            [
+              -150.225098,
+              61.1275357
+            ],
+            [
+              -150.2132748,
+              61.1320632
+            ],
+            [
+              -150.1875899,
+              61.1436949
+            ],
+            [
+              -150.2073525,
+              61.1531587
+            ],
+            [
+              -150.2320613,
+              61.1567691
+            ],
+            [
+              -150.2335228,
+              61.1523201
+            ],
+            [
+              -150.2355153,
+              61.1486135
+            ],
+            [
+              -150.2433315,
+              61.1372613
+            ],
+            [
+              -150.2482695,
+              61.1326729
+            ],
+            [
+              -150.2572187,
+              61.12869
+            ],
+            [
+              -150.2695153,
+              61.1260541
+            ]
+          ]
+        ]
+      },
+      "id": "way/571766699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/935570321",
+        "name": "USFW Wind Farm",
+        "plant:method": "wind_turbine",
+        "plant:output:electricity": "yes",
+        "plant:source": "wind",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -162.7149143,
+              55.2093176
+            ],
+            [
+              -162.7150806,
+              55.2091646
+            ],
+            [
+              -162.7151825,
+              55.208886
+            ],
+            [
+              -162.7152684,
+              55.2086442
+            ],
+            [
+              -162.7152094,
+              55.2084269
+            ],
+            [
+              -162.7150538,
+              55.2083289
+            ],
+            [
+              -162.7149733,
+              55.208384
+            ],
+            [
+              -162.7149733,
+              55.2085248
+            ],
+            [
+              -162.7149894,
+              55.2086809
+            ],
+            [
+              -162.7149948,
+              55.2088309
+            ],
+            [
+              -162.7149251,
+              55.2089472
+            ],
+            [
+              -162.7148875,
+              55.2091003
+            ],
+            [
+              -162.7148285,
+              55.2091799
+            ],
+            [
+              -162.7147802,
+              55.2092258
+            ],
+            [
+              -162.7147695,
+              55.2092931
+            ],
+            [
+              -162.7149143,
+              55.2093176
+            ]
+          ]
+        ]
+      },
+      "id": "way/935570321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1158795867",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -162.5569056,
+            66.8400671
+          ],
+          [
+            -162.5519552,
+            66.8400542
+          ],
+          [
+            -162.5519119,
+            66.8375113
+          ],
+          [
+            -162.5569913,
+            66.8374992
+          ],
+          [
+            -162.5569056,
+            66.8400671
+          ]
+        ]
+      },
+      "id": "way/1158795867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780288",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4312881,
+          64.5667376
+        ]
+      },
+      "id": "node/2145780288"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780306",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4287146,
+          64.5678836
+        ]
+      },
+      "id": "node/2145780306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780355",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4273304,
+          64.5684405
+        ]
+      },
+      "id": "node/2145780355"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780365",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4288267,
+          64.5686584
+        ]
+      },
+      "id": "node/2145780365"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780380",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4274047,
+          64.5691206
+        ]
+      },
+      "id": "node/2145780380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780407",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4275013,
+          64.5698147
+        ]
+      },
+      "id": "node/2145780407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780442",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4276817,
+          64.5705421
+        ]
+      },
+      "id": "node/2145780442"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780468",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4263991,
+          64.5703183
+        ]
+      },
+      "id": "node/2145780468"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780484",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4274297,
+          64.5711726
+        ]
+      },
+      "id": "node/2145780484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780522",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4276485,
+          64.5717312
+        ]
+      },
+      "id": "node/2145780522"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780544",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4265819,
+          64.5720424
+        ]
+      },
+      "id": "node/2145780544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2145780562",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4253393,
+          64.5722269
+        ]
+      },
+      "id": "node/2145780562"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519436",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5572828,
+          66.8350321
+        ]
+      },
+      "id": "node/2153519436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519437",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5572985,
+          66.8357264
+        ]
+      },
+      "id": "node/2153519437"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519441",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5572889,
+          66.8364081
+        ]
+      },
+      "id": "node/2153519441"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519448",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5573035,
+          66.8371465
+        ]
+      },
+      "id": "node/2153519448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519457",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5573299,
+          66.8378793
+        ]
+      },
+      "id": "node/2153519457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519513",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5632342,
+          66.8385179
+        ]
+      },
+      "id": "node/2153519513"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519516",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5573134,
+          66.8385231
+        ]
+      },
+      "id": "node/2153519516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519520",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5514764,
+          66.8385419
+        ]
+      },
+      "id": "node/2153519520"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519533",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5632237,
+          66.8392065
+        ]
+      },
+      "id": "node/2153519533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519535",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5515014,
+          66.8392205
+        ]
+      },
+      "id": "node/2153519535"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519536",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5573,
+          66.8392278
+        ]
+      },
+      "id": "node/2153519536"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519541",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5631811,
+          66.8398778
+        ]
+      },
+      "id": "node/2153519541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519542",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5515177,
+          66.8398854
+        ]
+      },
+      "id": "node/2153519542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2153519543",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5573238,
+          66.8399011
+        ]
+      },
+      "id": "node/2153519543"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2665908651",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164985,
+            "reltags": {
+              "name": "Sand Point Wind Farm",
+              "operator": "TDX Sand Point Generating, LLC",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "0.5 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "1",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2011-10",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.4905776,
+          55.3448477
+        ]
+      },
+      "id": "node/2665908651"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2666157529",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164985,
+            "reltags": {
+              "name": "Sand Point Wind Farm",
+              "operator": "TDX Sand Point Generating, LLC",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "0.5 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "1",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2011-10",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -160.4890971,
+          55.3436397
+        ]
+      },
+      "id": "node/2666157529"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960204023",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4327083,
+          64.5623793
+        ]
+      },
+      "id": "node/5960204023"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960204022",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4314315,
+          64.5623793
+        ]
+      },
+      "id": "node/5960204022"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960204020",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4345429,
+          64.5642088
+        ]
+      },
+      "id": "node/5960204020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960204021",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4336953,
+          64.5651718
+        ]
+      },
+      "id": "node/5960204021"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960204024",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4332984,
+          64.5632226
+        ]
+      },
+      "id": "node/5960204024"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5960204025",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164984,
+            "reltags": {
+              "name": "Snake River Wind Farm",
+              "operator": "Nome Joint Utility Systems",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "2.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "90",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-07",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -165.4347575,
+          64.5633793
+        ]
+      },
+      "id": "node/5960204025"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6089180089",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5632355,
+          66.8366203
+        ]
+      },
+      "id": "node/6089180089"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6089180088",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5572461,
+          66.8343592
+        ]
+      },
+      "id": "node/6089180088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6089227812",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5601161,
+          66.8315059
+        ]
+      },
+      "id": "node/6089227812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9758545375",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5632811,
+          66.837841
+        ]
+      },
+      "id": "node/9758545375"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6089180087",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164983,
+            "reltags": {
+              "name": "Kotzebue Hybrid",
+              "operator": "Kotzebue Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "3.3 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "6304",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "1997-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -162.5515008,
+          66.8378705
+        ]
+      },
+      "id": "node/6089180087"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6897269210",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164987,
+            "reltags": {
+              "name": "Pillar Mountain Wind Project Microgrid",
+              "operator": "Kodiak Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57187",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2009-06",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4601561,
+          57.7833614
+        ]
+      },
+      "id": "node/6897269210"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6897269208",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164987,
+            "reltags": {
+              "name": "Pillar Mountain Wind Project Microgrid",
+              "operator": "Kodiak Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57187",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2009-06",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4504197,
+          57.7857408
+        ]
+      },
+      "id": "node/6897269208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6897269209",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164987,
+            "reltags": {
+              "name": "Pillar Mountain Wind Project Microgrid",
+              "operator": "Kodiak Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57187",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2009-06",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4551833,
+          57.7845225
+        ]
+      },
+      "id": "node/6897269209"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6897269207",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164987,
+            "reltags": {
+              "name": "Pillar Mountain Wind Project Microgrid",
+              "operator": "Kodiak Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57187",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2009-06",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4461603,
+          57.786204
+        ]
+      },
+      "id": "node/6897269207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6897269206",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164987,
+            "reltags": {
+              "name": "Pillar Mountain Wind Project Microgrid",
+              "operator": "Kodiak Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57187",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2009-06",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4433279,
+          57.7869418
+        ]
+      },
+      "id": "node/6897269206"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6897269205",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164987,
+            "reltags": {
+              "name": "Pillar Mountain Wind Project Microgrid",
+              "operator": "Kodiak Electric Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57187",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2009-06",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -152.4407101,
+          57.7870962
+        ]
+      },
+      "id": "node/6897269205"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868432719",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9449051,
+          64.0689537
+        ]
+      },
+      "id": "node/8868432719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868432717",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9283697,
+          64.0710957
+        ]
+      },
+      "id": "node/8868432717"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868432718",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9360222,
+          64.0716235
+        ]
+      },
+      "id": "node/8868432718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419810",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9124088,
+          64.0616686
+        ]
+      },
+      "id": "node/8868419810"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419816",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9188071,
+          64.0707524
+        ]
+      },
+      "id": "node/8868419816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419809",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.9038985,
+          64.0599336
+        ]
+      },
+      "id": "node/8868419809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419815",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.908178,
+          64.0719002
+        ]
+      },
+      "id": "node/8868419815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419807",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8851904,
+          64.0580932
+        ]
+      },
+      "id": "node/8868419807"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419808",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8933899,
+          64.0584747
+        ]
+      },
+      "id": "node/8868419808"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419811",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8769759,
+          64.0615987
+        ]
+      },
+      "id": "node/8868419811"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419812",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8687574,
+          64.0607348
+        ]
+      },
+      "id": "node/8868419812"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8868419813",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164988,
+            "reltags": {
+              "name": "Eva Creek Wind",
+              "operator": "Golden Valley Elec Assn Inc",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "24.6 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "57935",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2013-01",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -148.8589775,
+          64.0627662
+        ]
+      },
+      "id": "node/8868419813"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4937921177",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164986,
+            "reltags": {
+              "name": "Delta Wind Farm",
+              "operator": "Alaska Environmental Power",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "1.9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "58511",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2008-09",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.5950153,
+          64.0143693
+        ]
+      },
+      "id": "node/4937921177"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4937921179",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164986,
+            "reltags": {
+              "name": "Delta Wind Farm",
+              "operator": "Alaska Environmental Power",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "1.9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "58511",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2008-09",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.5979389,
+          64.0148417
+        ]
+      },
+      "id": "node/4937921179"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9758545376",
+        "@relations": [
+          {
+            "role": "",
+            "rel": 14164986,
+            "reltags": {
+              "name": "Delta Wind Farm",
+              "operator": "Alaska Environmental Power",
+              "plant:method": "wind_turbine",
+              "plant:output:electricity": "1.9 MW",
+              "plant:source": "wind",
+              "power": "plant",
+              "ref:US:EIA": "58511",
+              "source": "U.S. Energy Information Administration - EIA-860 - 2020",
+              "start_date": "2008-09",
+              "type": "site"
+            }
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -145.5959702,
+          64.0134785
+        ]
+      },
+      "id": "node/9758545376"
+    }
+  ]
+}

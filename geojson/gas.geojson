@@ -1,0 +1,753 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-06-25T05:54:45Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/221169086",
+        "landuse": "industrial",
+        "name": "TNSG North Plant",
+        "operator": "TDX North Slope Generating Inc.",
+        "plant:method": "combustion",
+        "plant:output:electricity": "25.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "58278",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "2008-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -148.3840524,
+              70.2353011
+            ],
+            [
+              -148.3832159,
+              70.2353976
+            ],
+            [
+              -148.3836116,
+              70.23579
+            ],
+            [
+              -148.3844482,
+              70.2356935
+            ],
+            [
+              -148.3840524,
+              70.2353011
+            ]
+          ]
+        ]
+      },
+      "id": "way/221169086"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/265003418",
+        "landuse": "industrial",
+        "name": "Soldotna Combustion Turbine Plant",
+        "operator": "Homer Electric Association",
+        "plant:method": "combustion",
+        "plant:output:electricity": "50 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "57206",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2014-04",
+        "website": "https://www.homerelectric.com/my-cooperative/power-generation/soldotna-combustion-turbine-plant/"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -150.9988833,
+              60.5002122
+            ],
+            [
+              -150.9988751,
+              60.4987801
+            ],
+            [
+              -150.9957953,
+              60.4987844
+            ],
+            [
+              -150.9957972,
+              60.4991172
+            ],
+            [
+              -150.995802,
+              60.4999507
+            ],
+            [
+              -150.9966361,
+              60.4999496
+            ],
+            [
+              -150.9966376,
+              60.5002154
+            ],
+            [
+              -150.9988833,
+              60.5002122
+            ]
+          ]
+        ]
+      },
+      "id": "way/265003418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/304658759",
+        "landuse": "industrial",
+        "name": "Beluga Power Plant",
+        "operator": "Chugach Electric",
+        "plant:method": "combustion",
+        "plant:output:electricity": "312.4 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "96",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1968-01",
+        "website": "https://www.chugachelectric.com/about-us/your-cooperative/facilities/beluga-power-plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -151.0411271,
+              61.1880149
+            ],
+            [
+              -151.0412494,
+              61.1827541
+            ],
+            [
+              -151.0295938,
+              61.1826911
+            ],
+            [
+              -151.0294715,
+              61.1879519
+            ],
+            [
+              -151.0411271,
+              61.1880149
+            ]
+          ]
+        ]
+      },
+      "id": "way/304658759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/639275639",
+        "addr:city": "Chugiak",
+        "addr:housenumber": "28705",
+        "addr:postcode": "99567",
+        "addr:state": "AK",
+        "addr:street": "Denaina Elders Road",
+        "alt_name": "Eklutna Generating Station",
+        "landuse": "industrial",
+        "name": "Eklutna Generation Station",
+        "operator": "Matanuska Electric Assn Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "171 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "58989",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2015-02",
+        "wikidata": "Q19461554"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.3350228,
+              61.4598719
+            ],
+            [
+              -149.3350227,
+              61.4599888
+            ],
+            [
+              -149.3350289,
+              61.4609113
+            ],
+            [
+              -149.3350314,
+              61.4613462
+            ],
+            [
+              -149.3350314,
+              61.461722
+            ],
+            [
+              -149.3353042,
+              61.4616825
+            ],
+            [
+              -149.3386733,
+              61.4611957
+            ],
+            [
+              -149.3393856,
+              61.4611064
+            ],
+            [
+              -149.3400859,
+              61.4610359
+            ],
+            [
+              -149.3406566,
+              61.4609898
+            ],
+            [
+              -149.3414848,
+              61.4609429
+            ],
+            [
+              -149.3423131,
+              61.4609099
+            ],
+            [
+              -149.3430764,
+              61.4609024
+            ],
+            [
+              -149.3439185,
+              61.4609071
+            ],
+            [
+              -149.3446241,
+              61.4609311
+            ],
+            [
+              -149.3449505,
+              61.4609499
+            ],
+            [
+              -149.345519,
+              61.4609875
+            ],
+            [
+              -149.3463412,
+              61.4610504
+            ],
+            [
+              -149.3463144,
+              61.4578871
+            ],
+            [
+              -149.3429941,
+              61.458082
+            ],
+            [
+              -149.3419247,
+              61.4585549
+            ],
+            [
+              -149.3416275,
+              61.4586373
+            ],
+            [
+              -149.3411549,
+              61.4586417
+            ],
+            [
+              -149.3410433,
+              61.4584731
+            ],
+            [
+              -149.3402416,
+              61.4585977
+            ],
+            [
+              -149.3393881,
+              61.4587423
+            ],
+            [
+              -149.3385605,
+              61.458956
+            ],
+            [
+              -149.3353032,
+              61.4597972
+            ],
+            [
+              -149.3350228,
+              61.4598719
+            ]
+          ]
+        ]
+      },
+      "id": "way/639275639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/880329593",
+        "landuse": "industrial",
+        "name": "George M. Sullivan Generation Plant 2",
+        "operator": "Anchorage Municipal Light And Power",
+        "plant:method": "combustion",
+        "plant:output:electricity": "346.9 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6559",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1975-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.7205317,
+              61.2294805
+            ],
+            [
+              -149.7205223,
+              61.2289577
+            ],
+            [
+              -149.7190565,
+              61.2289048
+            ],
+            [
+              -149.7187118,
+              61.2289319
+            ],
+            [
+              -149.7184262,
+              61.2290074
+            ],
+            [
+              -149.718284,
+              61.2291294
+            ],
+            [
+              -149.7161691,
+              61.2292633
+            ],
+            [
+              -149.7159624,
+              61.2293313
+            ],
+            [
+              -149.7156569,
+              61.2294968
+            ],
+            [
+              -149.7149861,
+              61.2295519
+            ],
+            [
+              -149.7148466,
+              61.2294458
+            ],
+            [
+              -149.7136916,
+              61.2295434
+            ],
+            [
+              -149.7129313,
+              61.2296299
+            ],
+            [
+              -149.7116329,
+              61.2298363
+            ],
+            [
+              -149.7122128,
+              61.2308715
+            ],
+            [
+              -149.7125967,
+              61.2309239
+            ],
+            [
+              -149.7128971,
+              61.2309461
+            ],
+            [
+              -149.7137066,
+              61.2308249
+            ],
+            [
+              -149.7136768,
+              61.2307632
+            ],
+            [
+              -149.7143611,
+              61.2306821
+            ],
+            [
+              -149.7157612,
+              61.230294
+            ],
+            [
+              -149.7159177,
+              61.2304536
+            ],
+            [
+              -149.7205317,
+              61.2294805
+            ]
+          ]
+        ]
+      },
+      "id": "way/880329593"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/880329600",
+        "alt_name": "Anchorage 1",
+        "landuse": "industrial",
+        "name": "Hank Nikkels Plant",
+        "operator": "Chugach Electric Assn Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "77.9 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "75",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1947-00"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.8661933,
+              61.2228244
+            ],
+            [
+              -149.8668408,
+              61.2228263
+            ],
+            [
+              -149.868308,
+              61.2225422
+            ],
+            [
+              -149.868278,
+              61.2222921
+            ],
+            [
+              -149.8678949,
+              61.2221758
+            ],
+            [
+              -149.8666933,
+              61.2216945
+            ],
+            [
+              -149.8662226,
+              61.2216015
+            ],
+            [
+              -149.8659463,
+              61.2215718
+            ],
+            [
+              -149.8650585,
+              61.2215421
+            ],
+            [
+              -149.8650451,
+              61.2222698
+            ],
+            [
+              -149.8650518,
+              61.2228161
+            ],
+            [
+              -149.8661933,
+              61.2228244
+            ]
+          ]
+        ]
+      },
+      "id": "way/880329600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/880329609",
+        "landuse": "industrial",
+        "name": "Southcentral Power Plant",
+        "operator": "Chugach Electric Association",
+        "plant:method": "combustion",
+        "plant:output:electricity": "203.9 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "57036",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2013-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.9038721,
+              61.1678702
+            ],
+            [
+              -149.9073994,
+              61.1678599
+            ],
+            [
+              -149.9073977,
+              61.1677274
+            ],
+            [
+              -149.9088429,
+              61.1677232
+            ],
+            [
+              -149.9088402,
+              61.1675104
+            ],
+            [
+              -149.9087454,
+              61.1675107
+            ],
+            [
+              -149.9087337,
+              61.1665767
+            ],
+            [
+              -149.9038561,
+              61.1665909
+            ],
+            [
+              -149.9038721,
+              61.1678702
+            ]
+          ]
+        ]
+      },
+      "id": "way/880329609"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1031365493",
+        "landuse": "industrial",
+        "name": "International Generation Turbines (IGT)",
+        "operator": "Chugach Electric Association",
+        "plant:method": "combustion",
+        "plant:output:electricity": "15 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6293",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1964-12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -149.9115637,
+              61.1692116
+            ],
+            [
+              -149.9115721,
+              61.1687736
+            ],
+            [
+              -149.9102309,
+              61.1687676
+            ],
+            [
+              -149.9102225,
+              61.1692057
+            ],
+            [
+              -149.9115637,
+              61.1692116
+            ]
+          ]
+        ]
+      },
+      "id": "way/1031365493"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944586",
+        "landuse": "industrial",
+        "name": "Bernice Lake Power Plant",
+        "operator": "Homer Electric Assn Inc",
+        "plant:output:electricity": "76.7 MW",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "6292",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1971-11"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -151.3866663,
+              60.6940166
+            ],
+            [
+              -151.3883212,
+              60.6940153
+            ],
+            [
+              -151.3883212,
+              60.6931252
+            ],
+            [
+              -151.3866448,
+              60.6931304
+            ],
+            [
+              -151.3866474,
+              60.6932353
+            ],
+            [
+              -151.3866632,
+              60.6938893
+            ],
+            [
+              -151.3866663,
+              60.6940166
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944587",
+        "name": "Agrium Kenai Nitrogen Operations",
+        "operator": "Agrium US Inc",
+        "plant:output:electricity": "12.5 MW",
+        "plant:output:hot_water": "yes",
+        "plant:source": "gas",
+        "power": "plant",
+        "ref:US:EIA": "54452",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1968-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -151.3785931,
+              60.6751702
+            ],
+            [
+              -151.378472,
+              60.67501
+            ],
+            [
+              -151.3778791,
+              60.6751175
+            ],
+            [
+              -151.3780002,
+              60.6752777
+            ],
+            [
+              -151.3785931,
+              60.6751702
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944587"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944589",
+        "landuse": "industrial",
+        "name": "Nikiski Combined Cycle",
+        "operator": "Homer Electric Assn Inc",
+        "plant:output:electricity": "80.8 MW",
+        "plant:source": "gas",
+        "plant:type": "combined_cycle",
+        "power": "plant",
+        "ref:US:EIA": "55966",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1986-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -151.3782279,
+              60.6774085
+            ],
+            [
+              -151.3793787,
+              60.677415
+            ],
+            [
+              -151.3791105,
+              60.6770459
+            ],
+            [
+              -151.3789254,
+              60.6770801
+            ],
+            [
+              -151.3785902,
+              60.6766532
+            ],
+            [
+              -151.3788611,
+              60.6765967
+            ],
+            [
+              -151.3776433,
+              60.6750282
+            ],
+            [
+              -151.3772584,
+              60.6750991
+            ],
+            [
+              -151.3764831,
+              60.6752419
+            ],
+            [
+              -151.3782279,
+              60.6774085
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944589"
+    }
+  ]
+}

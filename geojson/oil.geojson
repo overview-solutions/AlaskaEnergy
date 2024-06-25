@@ -1,0 +1,979 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2024-06-25T05:56:51Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/549459484",
+        "landuse": "industrial",
+        "name": "G + K Power Company",
+        "operator": "G + K",
+        "plant:source": "oil",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -162.7168049,
+              55.2056186
+            ],
+            [
+              -162.7162538,
+              55.2057359
+            ],
+            [
+              -162.7159362,
+              55.2057758
+            ],
+            [
+              -162.7155813,
+              55.2057865
+            ],
+            [
+              -162.7152008,
+              55.205761
+            ],
+            [
+              -162.7152929,
+              55.2061192
+            ],
+            [
+              -162.7155673,
+              55.2061649
+            ],
+            [
+              -162.7160857,
+              55.2061995
+            ],
+            [
+              -162.7164032,
+              55.2061676
+            ],
+            [
+              -162.7167301,
+              55.2061063
+            ],
+            [
+              -162.7171598,
+              55.2059917
+            ],
+            [
+              -162.7171845,
+              55.2059834
+            ],
+            [
+              -162.7171872,
+              55.2059663
+            ],
+            [
+              -162.7171744,
+              55.205933
+            ],
+            [
+              -162.7171383,
+              55.2058891
+            ],
+            [
+              -162.7170524,
+              55.2058078
+            ],
+            [
+              -162.7169474,
+              55.2057101
+            ],
+            [
+              -162.7168049,
+              55.2056186
+            ]
+          ]
+        ]
+      },
+      "id": "way/549459484"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/555183136",
+        "landuse": "industrial",
+        "name": "Kodiak Microgrid",
+        "operator": "Kodiak Electric Assn Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "18.3 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "6281",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1968-02"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -152.3972313,
+              57.78979
+            ],
+            [
+              -152.3966683,
+              57.7899812
+            ],
+            [
+              -152.3968463,
+              57.7901306
+            ],
+            [
+              -152.3974103,
+              57.7899394
+            ],
+            [
+              -152.3972313,
+              57.78979
+            ]
+          ]
+        ]
+      },
+      "id": "way/555183136"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/696797313",
+        "addr:city": "King Cove",
+        "addr:housenumber": "237",
+        "addr:postcode": "99612",
+        "addr:state": "AK",
+        "addr:street": "Slocum Drive",
+        "landuse": "industrial",
+        "name": "King Cove Powerhouse",
+        "operator": "City of King Cove",
+        "plant:method": "combustion",
+        "plant:output:electricity": "yes",
+        "plant:source": "oil",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -162.2935474,
+              55.0479979
+            ],
+            [
+              -162.2935153,
+              55.0479961
+            ],
+            [
+              -162.2935095,
+              55.0480286
+            ],
+            [
+              -162.293546,
+              55.0480308
+            ],
+            [
+              -162.2935417,
+              55.0480548
+            ],
+            [
+              -162.2939058,
+              55.0480761
+            ],
+            [
+              -162.2939284,
+              55.0479488
+            ],
+            [
+              -162.29356,
+              55.0479273
+            ],
+            [
+              -162.2935474,
+              55.0479979
+            ]
+          ]
+        ]
+      },
+      "id": "way/696797313"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/714665792",
+        "landuse": "industrial",
+        "name": "Orca Power Plant",
+        "operator": "Cordova Electric Cooperative",
+        "plant:method": "combustion",
+        "plant:output:electricity": "10.7 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "789",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1984-10"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -145.7541069,
+              60.5561285
+            ],
+            [
+              -145.754335,
+              60.5558915
+            ],
+            [
+              -145.7540301,
+              60.5558405
+            ],
+            [
+              -145.7535239,
+              60.5557995
+            ],
+            [
+              -145.7532759,
+              60.5557925
+            ],
+            [
+              -145.753093,
+              60.5558415
+            ],
+            [
+              -145.7529568,
+              60.5559145
+            ],
+            [
+              -145.7528612,
+              60.5560314
+            ],
+            [
+              -145.7528247,
+              60.5561573
+            ],
+            [
+              -145.7528267,
+              60.5562622
+            ],
+            [
+              -145.7528633,
+              60.5563861
+            ],
+            [
+              -145.753528,
+              60.5562602
+            ],
+            [
+              -145.7541069,
+              60.5561285
+            ]
+          ]
+        ]
+      },
+      "id": "way/714665792"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/893552154",
+        "landuse": "industrial",
+        "name": "S W Bailey Power Plant",
+        "operator": "Ketchikan Public Utilities",
+        "plant:method": "combustion",
+        "plant:output:electricity": "25.9 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "85",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1969-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -131.6970341,
+              55.3571204
+            ],
+            [
+              -131.6966228,
+              55.3573679
+            ],
+            [
+              -131.696937,
+              55.3575367
+            ],
+            [
+              -131.6971088,
+              55.3574333
+            ],
+            [
+              -131.6973484,
+              55.3572893
+            ],
+            [
+              -131.6970341,
+              55.3571204
+            ]
+          ]
+        ]
+      },
+      "id": "way/893552154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944574",
+        "landuse": "industrial",
+        "name": "Delta Power",
+        "operator": "Golden Valley Elec Assn Inc",
+        "plant:output:electricity": "23.1 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "56325",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1976-11"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -145.7175063,
+              64.0278848
+            ],
+            [
+              -145.7168359,
+              64.0283765
+            ],
+            [
+              -145.7200652,
+              64.0283459
+            ],
+            [
+              -145.7206929,
+              64.028252
+            ],
+            [
+              -145.7211703,
+              64.028104
+            ],
+            [
+              -145.7220125,
+              64.0276647
+            ],
+            [
+              -145.721443,
+              64.0274421
+            ],
+            [
+              -145.7208558,
+              64.0274399
+            ],
+            [
+              -145.7208539,
+              64.027536
+            ],
+            [
+              -145.7206189,
+              64.0275351
+            ],
+            [
+              -145.7205814,
+              64.027474
+            ],
+            [
+              -145.7201285,
+              64.0274724
+            ],
+            [
+              -145.7201333,
+              64.0272237
+            ],
+            [
+              -145.7194291,
+              64.0272159
+            ],
+            [
+              -145.7194333,
+              64.0278825
+            ],
+            [
+              -145.7175063,
+              64.0278848
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944574"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944576",
+        "landuse": "industrial",
+        "name": "Jarvis Street Power Plant",
+        "operator": "City & Borough of Sitka - (AK)",
+        "plant:output:electricity": "25.6 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "6801",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1979-08"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -135.3132311,
+              57.0495907
+            ],
+            [
+              -135.3115332,
+              57.0501466
+            ],
+            [
+              -135.3119302,
+              57.0504908
+            ],
+            [
+              -135.3123057,
+              57.0503829
+            ],
+            [
+              -135.3129548,
+              57.0504588
+            ],
+            [
+              -135.3139418,
+              57.0499875
+            ],
+            [
+              -135.3132311,
+              57.0495907
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944576"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944580",
+        "landuse": "industrial",
+        "name": "Industrial Plant",
+        "operator": "Alaska Electric Light&Power Co",
+        "plant:method": "combustion",
+        "plant:output:electricity": "41.7 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "59793",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "2016-11"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -134.6078879,
+              58.3686531
+            ],
+            [
+              -134.6078825,
+              58.3683492
+            ],
+            [
+              -134.6096635,
+              58.3683549
+            ],
+            [
+              -134.6091217,
+              58.3668975
+            ],
+            [
+              -134.606477,
+              58.36692
+            ],
+            [
+              -134.6065521,
+              58.3683999
+            ],
+            [
+              -134.6078879,
+              58.3686531
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944580"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944581",
+        "alt_name": "Fairbanks Power Plant",
+        "landuse": "industrial",
+        "name": "Zehnder Power Plant",
+        "operator": "Golden Valley Elec Assn Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "42.2 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "6286",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021;https://dec.alaska.gov/media/7378/zehnder-prelim-bact-determination.pdf",
+        "start_date": "1970-05"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -147.7188193,
+              64.854659
+            ],
+            [
+              -147.7211863,
+              64.8544267
+            ],
+            [
+              -147.7215779,
+              64.8541464
+            ],
+            [
+              -147.7190888,
+              64.8537497
+            ],
+            [
+              -147.7180159,
+              64.8534716
+            ],
+            [
+              -147.7176404,
+              64.8537361
+            ],
+            [
+              -147.7171737,
+              64.8538911
+            ],
+            [
+              -147.7170932,
+              64.8541327
+            ],
+            [
+              -147.717255,
+              64.8543823
+            ],
+            [
+              -147.7174319,
+              64.8543101
+            ],
+            [
+              -147.7185291,
+              64.8542078
+            ],
+            [
+              -147.7188193,
+              64.854659
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944581"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944582",
+        "landuse": "industrial",
+        "name": "Auke Bay Power Plant",
+        "operator": "Alaska Electric Light&Power Co",
+        "plant:output:electricity": "36.2 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "7250",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1980-09"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -134.6440843,
+              58.3872362
+            ],
+            [
+              -134.6438375,
+              58.3876158
+            ],
+            [
+              -134.6438268,
+              58.3877943
+            ],
+            [
+              -134.6445859,
+              58.3880432
+            ],
+            [
+              -134.6451169,
+              58.3874696
+            ],
+            [
+              -134.6440843,
+              58.3872362
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944582"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944583",
+        "landuse": "industrial",
+        "name": "Lemon Creek Power Plant",
+        "operator": "Alaska Electric Light&Power Co",
+        "plant:output:electricity": "61.7 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "64",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1969-08"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -134.4944841,
+              58.3539614
+            ],
+            [
+              -134.4955328,
+              58.3540514
+            ],
+            [
+              -134.4959673,
+              58.3539881
+            ],
+            [
+              -134.4959164,
+              58.3538995
+            ],
+            [
+              -134.4959968,
+              58.3538375
+            ],
+            [
+              -134.496654,
+              58.3537404
+            ],
+            [
+              -134.4963643,
+              58.3531747
+            ],
+            [
+              -134.4944733,
+              58.3534435
+            ],
+            [
+              -134.4944841,
+              58.3539614
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1084944584",
+        "name": "North Pole Power Plant",
+        "operator": "Golden Valley Elec Assn Inc",
+        "plant:output:electricity": "181 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "6285",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2021",
+        "start_date": "1976-12"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -147.3532516,
+              64.7354577
+            ],
+            [
+              -147.353316,
+              64.7335551
+            ],
+            [
+              -147.3487616,
+              64.7335505
+            ],
+            [
+              -147.3487133,
+              64.7342466
+            ],
+            [
+              -147.3474795,
+              64.7342443
+            ],
+            [
+              -147.3474687,
+              64.7348327
+            ],
+            [
+              -147.3487616,
+              64.7348258
+            ],
+            [
+              -147.3487938,
+              64.7354555
+            ],
+            [
+              -147.3532516,
+              64.7354577
+            ]
+          ]
+        ]
+      },
+      "id": "way/1084944584"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1100686141",
+        "barrier": "fence",
+        "landuse": "industrial",
+        "name": "Togiak Power Plant",
+        "operator": "Alaska Village Electric Cooperative",
+        "plant:source": "oil",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -160.3782758,
+              59.0600169
+            ],
+            [
+              -160.3793004,
+              59.0593232
+            ],
+            [
+              -160.3784448,
+              59.0590033
+            ],
+            [
+              -160.378316,
+              59.0590874
+            ],
+            [
+              -160.3781337,
+              59.0590226
+            ],
+            [
+              -160.3778923,
+              59.0590557
+            ],
+            [
+              -160.3772646,
+              59.0594859
+            ],
+            [
+              -160.3777903,
+              59.0597093
+            ],
+            [
+              -160.3779513,
+              59.0598831
+            ],
+            [
+              -160.3782758,
+              59.0600169
+            ]
+          ]
+        ]
+      },
+      "id": "way/1100686141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1177112603",
+        "landuse": "industrial",
+        "name": "Dillingham",
+        "operator": "Nushagak Electric Coop, Inc",
+        "plant:method": "combustion",
+        "plant:output:electricity": "11 MW",
+        "plant:source": "oil",
+        "power": "plant",
+        "ref:US:EIA": "109",
+        "source": "U.S. Energy Information Administration - EIA-860 - 2022",
+        "start_date": "1961-01"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -158.4692377,
+              59.0420199
+            ],
+            [
+              -158.4688944,
+              59.0423125
+            ],
+            [
+              -158.4687656,
+              59.0423621
+            ],
+            [
+              -158.4686905,
+              59.0425443
+            ],
+            [
+              -158.4687012,
+              59.0427816
+            ],
+            [
+              -158.4688622,
+              59.0434549
+            ],
+            [
+              -158.4689105,
+              59.0438274
+            ],
+            [
+              -158.4689158,
+              59.0439791
+            ],
+            [
+              -158.469125,
+              59.044313
+            ],
+            [
+              -158.4691572,
+              59.0445227
+            ],
+            [
+              -158.4690392,
+              59.0447518
+            ],
+            [
+              -158.4689748,
+              59.0449063
+            ],
+            [
+              -158.4690177,
+              59.0450994
+            ],
+            [
+              -158.4693396,
+              59.0450773
+            ],
+            [
+              -158.4695596,
+              59.0449863
+            ],
+            [
+              -158.469758,
+              59.0450111
+            ],
+            [
+              -158.4699243,
+              59.0450194
+            ],
+            [
+              -158.4699565,
+              59.0446883
+            ],
+            [
+              -158.4699726,
+              59.0440095
+            ],
+            [
+              -158.4699619,
+              59.0435984
+            ],
+            [
+              -158.4698653,
+              59.0431886
+            ],
+            [
+              -158.4696347,
+              59.0422048
+            ],
+            [
+              -158.4695381,
+              59.0420738
+            ],
+            [
+              -158.4692377,
+              59.0420199
+            ]
+          ]
+        ]
+      },
+      "id": "way/1177112603"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1221025412",
+        "landuse": "industrial",
+        "name": "Tenakee Springs Power Plant",
+        "operator": "City of Tenakee Springs",
+        "plant:source": "oil",
+        "power": "plant"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -135.2192733,
+              57.7804585
+            ],
+            [
+              -135.2192545,
+              57.7807288
+            ],
+            [
+              -135.2191928,
+              57.7808589
+            ],
+            [
+              -135.2198204,
+              57.7808532
+            ],
+            [
+              -135.2198231,
+              57.7804571
+            ],
+            [
+              -135.2192733,
+              57.7804585
+            ]
+          ]
+        ]
+      },
+      "id": "way/1221025412"
+    }
+  ]
+}
