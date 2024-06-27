@@ -10,9 +10,8 @@ var map = new mapboxgl.Map({
 var icon = "circle";
 
 map.on('load', function () {
-    var layers = ['Wind', 'Solar', 'Hydro', 'Geothermal', 'Biomass', 'Coal', 'Gas', 'Oil'];
-    var colors = ['#76b041', '#f39c12', '#3498db', '#9b59b6', '#27ae60', '#34495e', '#e74c3c', '#2c3e50'];
-    for (var i = 0; i < layers.length; i++) {
+    var layers = ['Wind', 'Hydro', 'Geothermal', 'Biomass', 'Solar', 'Battery', 'Diesel', 'Coal', 'Gas', 'Oil', 'Oil_Coal'];
+    var colors = ['#1e90ff', '#0073e6', '#32cd32', '#27ae60', '#ffcc00', '#ffff00', '#800000', '#ff0000', '#ff4500', '#b22222', '#ff6347', '#ccc'];for (var i = 0; i < layers.length; i++) {
         var layer = layers[i];
         var color = colors[i];
         var item = document.createElement('div');
@@ -32,15 +31,49 @@ map.on('load', function () {
         .then(data => {
             console.log(data); // Log the entire GeoJSON data
 
+            // Transform the GeoJSON data to convert polygons to points
+            var transformedFeatures = data.features.map(feature => {
+                if (feature.geometry.type === 'Polygon' || feature.geometry.type === 'MultiPolygon') {
+                    var coordinates = feature.geometry.coordinates[0][0]; // Use the first coordinate of the polygon
+                    return {
+                        type: 'Feature',
+                        properties: feature.properties,
+                        geometry: {
+                            type: 'Point',
+                            coordinates: coordinates
+                        }
+                    };
+                } else if (feature.geometry.type === 'LineString' || feature.geometry.type === 'MultiLineString') {
+                    var coordinates = feature.geometry.coordinates[0][0]; // Use the first coordinate of the linestring
+                    return {
+                        type: 'Feature',
+                        properties: feature.properties,
+                        geometry: {
+                            type: 'Point',
+                            coordinates: coordinates
+                        }
+                    };
+                } else {
+                    return feature; // Keep other geometries as they are
+                }
+            });
+
+            var transformedData = {
+                type: 'FeatureCollection',
+                features: transformedFeatures
+            };
+
+            console.log('Transformed GeoJSON data:', transformedData);
+
             // Log feature properties to debug
             data.features.forEach(feature => {
                 console.log("plant_source:"+feature.properties.plant_source);
             });
 
-            // Add the GeoJSON source
+            // Add the transformed GeoJSON source
             map.addSource('powerplants', {
                 type: 'geojson',
-                data: data
+                data: transformedData
             });
 
             // Add a layer showing the power plants
@@ -50,27 +83,28 @@ map.on('load', function () {
                 source: "powerplants",
                 'paint': {
                     'circle-radius': {
-                        'base': 20,
-                        'stops': [[12, 5], [22, 180]]
+                        'base': 6, // Decreased base size
+                        'stops': [[12, 4], [22, 16]]
                     },
                     'circle-color': [
                         'match',
                         ['coalesce', ['get', 'plant_source'], ''], // The feature property to match against
-                        'wind', '#76b041',
-                        'solar', '#f39c12',
-                        'hydro', '#3498db',
-                        'geothermal', '#9b59b6',
-                        'battery', '#ffff00',
+                        'wind', '#1e90ff',
+                        'hydro', '#0073e6',
+                        'geothermal', '#32cd32',
                         'biomass', '#27ae60',
-                        'coal', '#34495e',
-                        'gas', '#e74c3c',
-                        'oil', '#2c3e50',
-                        'oil_coal', '#2c3e50',
-                        '','#ccc',
-                        /* other */ '#fff' // Default color for any unmatched values
+                        'solar', '#ffcc00',
+                        'battery', '#ffff00',
+                        'diesel', '#800000',
+                        'coal', '#ff0000',
+                        'gas', '#ff4500',
+                        'oil', '#b22222',
+                        'oil_coal', '#ff6347',
+                        '', '#ccc', // Default color for undefined plant_source
+                    /* other */ '#fff'  // Default color for any unmatched values
                     ],
                     'circle-stroke-color': '#000',
-                    'circle-stroke-width': 1
+                    'circle-stroke-width': 0.5
                 }
             });
 
