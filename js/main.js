@@ -1,12 +1,5 @@
 mapboxgl.accessToken = 'pk.eyJ1IjoiZWFydGhhZGFtIiwiYSI6ImNqd3Y3amlwczBnMzc0YW4xc2x1NWVuNGoifQ.jQvOGeLkupgLxp31-Oa6gw';
 
-function numberWithCommas(x) {
-    if (x === undefined || x === null) {
-        return 'N/A';
-    }
-    return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
-}
-
 var map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/earthadam/cjxo0sdri31o01clrrw3qesbq', // Presentation style
@@ -34,88 +27,88 @@ map.on('load', function () {
         legend.appendChild(item);
     }
 
-    map.addSource('powerplants', { type: 'geojson', data: 'https://raw.githubusercontent.com/overview-solutions/AlaskaEnergy/master/geojson/powerplants.geojson' });
+    fetch('https://raw.githubusercontent.com/overview-solutions/AlaskaEnergy/master/geojson/powerplants.geojson')
+        .then(response => response.json())
+        .then(data => {
+            console.log(data); // Log the entire GeoJSON data
 
-    // Add a layer showing the power plants
-    map.addLayer({
-        "id": "powerplants",
-        "type": "circle",
-        source: "powerplants",
-        'paint': {
-            'circle-radius': {
-                'base': 20,
-                'stops': [[12, 5], [22, 180]]
-            },
-            'circle-color': [
-                'match',
-                ['get', 'plant_source'],
-                'wind', '#76b041',
-                'solar', '#f39c12',
-                'hydro', '#3498db',
-                'geothermal', '#9b59b6',
-                'biomass', '#27ae60',
-                'coal', '#34495e',
-                'gas', '#e74c3c',
-                'oil', '#2c3e50',
-                /* other */ '#fff'
-            ],
-            'circle-stroke-color': '#000',
-            'circle-stroke-width': 1
-        }
-    });
+            // Log feature properties to debug
+            data.features.forEach(feature => {
+                console.log("plant_source:"+feature.properties.plant_source);
+            });
 
-    // Create a popup, but don't add it to the map yet.
-    var popup = new mapboxgl.Popup({
-        closeButton: false,
-        closeOnClick: false
-    });
+            // Add the GeoJSON source
+            map.addSource('powerplants', {
+                type: 'geojson',
+                data: data
+            });
 
-    map.on('mouseover', 'powerplants', function (e) {
-        // Change the cursor style as a UI indicator.
-        map.getCanvas().style.cursor = 'pointer';
+            // Add a layer showing the power plants
+            map.addLayer({
+                "id": "powerplants",
+                "type": "circle",
+                source: "powerplants",
+                'paint': {
+                    'circle-radius': {
+                        'base': 20,
+                        'stops': [[12, 5], [22, 180]]
+                    },
+                    'circle-color': [
+                        'match',
+                        ['coalesce', ['get', 'plant_source'], ''], // The feature property to match against
+                        'wind', '#76b041',
+                        'solar', '#f39c12',
+                        'hydro', '#3498db',
+                        'geothermal', '#9b59b6',
+                        'battery', '#ffff00',
+                        'biomass', '#27ae60',
+                        'coal', '#34495e',
+                        'gas', '#e74c3c',
+                        'oil', '#2c3e50',
+                        'oil_coal', '#2c3e50',
+                        '','#ccc',
+                        /* other */ '#fff' // Default color for any unmatched values
+                    ],
+                    'circle-stroke-color': '#000',
+                    'circle-stroke-width': 1
+                }
+            });
 
-        // Populate the popup and set its coordinates
-        // based on the feature found.
-        var coordinates = e.features[0].geometry.coordinates.slice();
-        var properties = e.features[0].properties;
-        var description = `
-            <h2>${properties.name}</h2>
-            <p><strong>Type:</strong> ${properties.plant_source}</p>
-            <p><strong>Capacity:</strong> ${properties.plant_output} MW</p>
-            <p><strong>Method:</strong> ${properties.plant_method}</p >
-            <p><strong>Operator:</strong> ${properties.operator}</p>
-            <p><strong>Commissioned:</strong> ${properties.start_date}</p>
-            `;
+            // Create a popup but don't add it to the map yet.
+            var popup = new mapboxgl.Popup({
+                closeButton: false,
+                closeOnClick: false
+            });
 
-        popup.setLngLat(coordinates)
-            .setHTML(description)
-            .addTo(map);
-    });
+            function generatePopupContent(properties) {
+                let description = `<h2>${properties.name}</h2>`;
+                description += properties.plant_source ? `<p><strong>Type:</strong> ${properties.plant_source}</p>` : '';
+                description += properties.operator ? `<p><strong>Operator:</strong> ${properties.operator}</p>` : '';
+                description += properties.plant_method ? `<p><strong>plant_method:</strong> ${properties.plant_method}</p>` : '';
+                return description;
+            }
 
-    map.on('mouseleave', 'powerplants', function () {
-        map.getCanvas().style.cursor = '';
-        popup.remove();
-    });
+            map.on('mouseenter', 'powerplants', function (e) {
+                map.getCanvas().style.cursor = 'pointer';
 
-    map.on('click', 'powerplants', function (e) {
-        var coordinates = e.features[0].geometry.coordinates.slice();
-        var properties = e.features[0].properties;
-        var description = `
-        < h2 > ${ properties.name }</h2 >
-            <p><strong>Type:</strong> ${properties.plant_source}</p>
-            <p><strong>Capacity:</strong> ${properties.plant_output} MW</p>
-            <p><strong>Method:</strong> ${properties.plant_method}</p>
-            <p><strong>Operator:</strong> ${properties.operator}</p>
-            <p><strong>Commissioned:</strong> ${properties.start_date}</p>
-            `;
+                var coordinates = e.features[0].geometry.coordinates.slice();
+                if (coordinates.length === 2) {
+                    var properties = e.features[0].properties;
+                    var description = generatePopupContent(properties);
 
-        popup.setLngLat(coordinates)
-            .setHTML(description)
-            .addTo(map);
-    });
+                    popup.setLngLat(coordinates)
+                        .setHTML(description)
+                        .addTo(map);
+                }
+            });
 
-    map.on('click', function () {
-        map.getCanvas().style.cursor = '';
-        popup.remove();
-    });
+            map.on('mouseleave', 'powerplants', function () {
+                map.getCanvas().style.cursor = '';
+                popup.remove();
+            });
+
+            console.log('Map setup complete');
+        })
+        .catch(error => console.error('Error fetching GeoJSON:', error));
+    console.log('Map setup complete');
 });

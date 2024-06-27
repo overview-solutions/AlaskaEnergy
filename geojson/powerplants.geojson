@@ -5,67 +5,67 @@
   "timestamp": "2024-06-25T16:13:28Z",
   "features": [
     {
-      "type": "Feature",
-      "properties": {
-        "@id": "way/29407400",
-        "landuse": "industrial",
-        "plant_method": "combustion",
-        "plant_output": "yes",
-        "plant_source": "coal",
-        "power": "plant"
-      },
-      "geometry": {
-        "type": "Polygon",
-        "coordinates": [
-          [
-            [
-              -149.7098403,
-              61.2466664
-            ],
-            [
-              -149.7094945,
-              61.2459302
-            ],
-            [
-              -149.7090019,
-              61.2459838
-            ],
-            [
-              -149.7088926,
-              61.2457512
-            ],
-            [
-              -149.7082282,
-              61.2458234
-            ],
-            [
-              -149.7082878,
-              61.2459501
-            ],
-            [
-              -149.7079461,
-              61.2459873
-            ],
-            [
-              -149.7081413,
-              61.2464028
-            ],
-            [
-              -149.7090545,
-              61.2463035
-            ],
-            [
-              -149.7092549,
-              61.24673
-            ],
-            [
-              -149.7098403,
-              61.2466664
+        "type": "Feature",
+        "properties": {
+            "@id": "way/29407400",
+            "landuse": "industrial",
+            "plant_method": "combustion",
+            "plant_output": "yes",
+            "plant_source": "coal",
+            "power": "plant"
+        },
+        "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+                [
+                    [
+                        -149.7098403,
+                        61.2466664
+                    ],
+                    [
+                        -149.7094945,
+                        61.2459302
+                    ],
+                    [
+                        -149.7090019,
+                        61.2459838
+                    ],
+                    [
+                        -149.7088926,
+                        61.2457512
+                    ],
+                    [
+                        -149.7082282,
+                        61.2458234
+                    ],
+                    [
+                        -149.7082878,
+                        61.2459501
+                    ],
+                    [
+                        -149.7079461,
+                        61.2459873
+                    ],
+                    [
+                        -149.7081413,
+                        61.2464028
+                    ],
+                    [
+                        -149.7090545,
+                        61.2463035
+                    ],
+                    [
+                        -149.7092549,
+                        61.24673
+                    ],
+                    [
+                        -149.7098403,
+                        61.2466664
+                    ]
+                ]
             ]
-          ]
-        ]
-      },
-      "id": "way/29407400"
+        },
+        "id": "way/29407400"
     },
     {
       "type": "Feature",
@@ -79,7 +79,7 @@
         "plant_output": "126 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "7367",
+        "refer": "7367",
         "source": "Bing",
         "start_date": "1991-06"
       },
@@ -127,7 +127,7 @@
         "plant_output": "78.2 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "78",
+        "refer": "78",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1973-11",
         "wikidata": "Q7547680"
@@ -192,7 +192,7 @@
         "plant_output": "25.7 MW",
         "plant_source": "gas",
         "power": "plant",
-        "ref:US:EIA": "58278",
+        "refer": "58278",
         "source": "U.S. Energy Information Administration - EIA-860 - 2022",
         "start_date": "2008-01"
       },
@@ -235,7 +235,7 @@
         "plant_output": "33.6 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "71",
+        "refer": "71",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1984-12"
       },
@@ -278,7 +278,7 @@
         "plant_output": "19.4 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "6291",
+        "refer": "6291",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1961-05",
         "website": "https://www.chugachelectric.com/relicensing/"
@@ -351,7 +351,7 @@
         "plant_output": "50 MW",
         "plant_source": "gas",
         "power": "plant",
-        "ref:US:EIA": "57206",
+        "refer": "57206",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "2014-04",
         "website": "https://www.homerelectric.com/my-cooperative/power-generation/soldotna-combustion-turbine-plant/"
@@ -408,7 +408,7 @@
         "plant_output": "312.4 MW",
         "plant_source": "gas",
         "power": "plant",
-        "ref:US:EIA": "96",
+        "refer": "96",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1968-01",
         "website": "https://www.chugachelectric.com/about-us/your-cooperative/facilities/beluga-power-plant"
@@ -451,9 +451,9 @@
         "operator": "Golden Valley Elec Assn Inc",
         "plant_output": "40 MW",
         "plant_source": "battery",
-        "plant:storage": "6.25 MWh",
+        "plant_storage": "6.25 MWh",
         "power": "plant",
-        "ref:US:EIA": "57583",
+        "refer": "57583",
         "source": "Bing",
         "start_date": "2003-12"
       },
@@ -505,7 +505,7 @@
         "plant_output": "18.6 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "313",
+        "refer": "313",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1979"
       },
@@ -546,9 +546,9 @@
         "name": "Healy Power Plant",
         "operator": "Golden Valley Elec Assn Inc",
         "plant_output": "92.8 MW",
-        "plant_source": "oil;coal",
+        "plant_source": "oil_coal",
         "power": "plant",
-        "ref:US:EIA": "6288",
+        "refer": "6288",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1967-09"
       },
@@ -632,7 +632,7 @@
         "plant_output": "15.9 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "93",
+        "refer": "93",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1961-06"
       },
@@ -677,7 +677,7 @@
         "plant_output": "4 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "7751",
+        "refer": "7751",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1997-12"
       },
@@ -942,7 +942,7 @@
         "plant_output": "18.3 MW",
         "plant_source": "oil",
         "power": "plant",
-        "ref:US:EIA": "6281",
+        "refer": "6281",
         "source": "U.S. Energy Information Administration - EIA-860 - 2022",
         "start_date": "1968-02"
       },
@@ -984,7 +984,7 @@
         "plant_output": "18 MW",
         "plant_source": "wind",
         "power": "plant",
-        "ref:US:EIA": "58425",
+        "refer": "58425",
         "source": "U.S. Energy Information Administration - EIA-860 - 2020",
         "start_date": "2012-09",
         "website": "https://fireislandwind.com/"
@@ -1072,7 +1072,7 @@
         "plant_output": "22.6 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "61166",
+        "refer": "61166",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1983-07"
       },
@@ -1152,7 +1152,7 @@
         "plant_output": "22.6 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "70",
+        "refer": "70",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1984-06"
       },
@@ -1601,7 +1601,7 @@
         "plant_output": "171 MW",
         "plant_source": "gas",
         "power": "plant",
-        "ref:US:EIA": "58989",
+        "refer": "58989",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "2015-02",
         "wikidata": "Q19461554"
@@ -1742,7 +1742,7 @@
         "plant_output": "44.4 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "77",
+        "refer": "77",
         "source": "EsriWorldImagery",
         "start_date": "1955-07-01",
         "wikidata": "Q18705938",
@@ -1789,7 +1789,7 @@
         "plant_output": "12 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "390",
+        "refer": "390",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1982-07-01"
       },
@@ -1835,7 +1835,7 @@
         "plant_output": "5.4 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "6580",
+        "refer": "6580",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1947-01"
       },
@@ -1880,7 +1880,7 @@
         "plant_output:hot_water": "yes",
         "plant_source": "diesel",
         "power": "plant",
-        "ref:US:EIA": "57056",
+        "refer": "57056",
         "source": "survey",
         "start_date": "2001-09"
       },
@@ -2045,7 +2045,7 @@
         "plant_output": "10.7 MW",
         "plant_source": "oil",
         "power": "plant",
-        "ref:US:EIA": "789",
+        "refer": "789",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1984-10"
       },
@@ -2121,7 +2121,7 @@
         "plant_output": "6 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "7862",
+        "refer": "7862",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "2001-11"
       },
@@ -2172,7 +2172,7 @@
         "plant_output": "6.5 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "58982",
+        "refer": "58982",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "2016-10"
       },
@@ -2216,7 +2216,7 @@
         "plant_output": "346.9 MW",
         "plant_source": "gas",
         "power": "plant",
-        "ref:US:EIA": "6559",
+        "refer": "6559",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1975-01"
       },
@@ -2333,7 +2333,7 @@
         "plant_output": "77.9 MW",
         "plant_source": "gas",
         "power": "plant",
-        "ref:US:EIA": "75",
+        "refer": "75",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1947-00"
       },
@@ -2404,9 +2404,9 @@
         "plant_method": "combustion",
         "plant_output": "203.9 MW",
         "plant_source": "gas",
-        "plant:type": "combined_cycle",
+        "plant_type": "combined_cycle",
         "power": "plant",
-        "ref:US:EIA": "57036",
+        "refer": "57036",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "2013-01"
       },
@@ -2466,7 +2466,7 @@
         "plant_output": "25.9 MW",
         "plant_source": "oil",
         "power": "plant",
-        "ref:US:EIA": "85",
+        "refer": "85",
         "source": "U.S. Energy Information Administration - EIA-860 - 2022",
         "start_date": "1969-01"
       },
@@ -3007,7 +3007,7 @@
         "plant_output": "14.3 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "57085",
+        "refer": "57085",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "2009-09"
       },
@@ -3089,7 +3089,7 @@
         "plant_output": "15 MW",
         "plant_source": "gas",
         "power": "plant",
-        "ref:US:EIA": "6293",
+        "refer": "6293",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1964-12"
       },
@@ -3369,7 +3369,7 @@
         "plant_output": "3.9 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "6302",
+        "refer": "6302",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1956-01"
       },
@@ -3411,7 +3411,7 @@
         "plant_output": "4.2 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "84",
+        "refer": "84",
         "source": "U.S. Energy Information Administration - EIA-860 - 2020",
         "start_date": "1938-01"
       },
@@ -3492,7 +3492,7 @@
         "plant_output:hot_water": "yes",
         "plant_source": "coal",
         "power": "plant",
-        "ref:US:EIA": "50308",
+        "refer": "50308",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1945-01"
       },
@@ -3571,7 +3571,7 @@
         "plant_output": "23.1 MW",
         "plant_source": "oil",
         "power": "plant",
-        "ref:US:EIA": "56325",
+        "refer": "56325",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1976-11"
       },
@@ -3660,7 +3660,7 @@
         "plant_output:hot_water": "yes",
         "plant_source": "coal",
         "power": "plant",
-        "ref:US:EIA": "79",
+        "refer": "79",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1952-06"
       },
@@ -3763,7 +3763,7 @@
         "plant_output": "25.6 MW",
         "plant_source": "oil",
         "power": "plant",
-        "ref:US:EIA": "6801",
+        "refer": "6801",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1979-08"
       },
@@ -3813,7 +3813,7 @@
         "plant_output": "4 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "62",
+        "refer": "62",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1915-12"
       },
@@ -3855,7 +3855,7 @@
         "plant_output": "4.8 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "58977",
+        "refer": "58977",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "2015-01"
       },
@@ -3897,7 +3897,7 @@
         "plant_output": "5 MW",
         "plant_source": "hydro",
         "power": "plant",
-        "ref:US:EIA": "59037",
+        "refer": "59037",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "2021-01"
       },
@@ -3941,7 +3941,7 @@
         "plant_output": "41.7 MW",
         "plant_source": "oil",
         "power": "plant",
-        "ref:US:EIA": "59793",
+        "refer": "59793",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "2016-11"
       },
@@ -3994,7 +3994,7 @@
         "plant_output": "42.2 MW",
         "plant_source": "oil",
         "power": "plant",
-        "ref:US:EIA": "6286",
+        "refer": "6286",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021;https://dec.alaska.gov/media/7378/zehnder-prelim-bact-determination.pdf",
         "start_date": "1970-05"
       },
@@ -4065,7 +4065,7 @@
         "plant_output": "36.2 MW",
         "plant_source": "oil",
         "power": "plant",
-        "ref:US:EIA": "7250",
+        "refer": "7250",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1980-09"
       },
@@ -4112,7 +4112,7 @@
         "plant_output": "61.7 MW",
         "plant_source": "oil",
         "power": "plant",
-        "ref:US:EIA": "64",
+        "refer": "64",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1969-08"
       },
@@ -4170,7 +4170,7 @@
         "plant_output": "181 MW",
         "plant_source": "oil",
         "power": "plant",
-        "ref:US:EIA": "6285",
+        "refer": "6285",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1976-12"
       },
@@ -4229,7 +4229,7 @@
         "plant_output": "76.7 MW",
         "plant_source": "gas",
         "power": "plant",
-        "ref:US:EIA": "6292",
+        "refer": "6292",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1971-11"
       },
@@ -4280,7 +4280,7 @@
         "plant_output:hot_water": "yes",
         "plant_source": "gas",
         "power": "plant",
-        "ref:US:EIA": "54452",
+        "refer": "54452",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1968-09"
       },
@@ -4322,9 +4322,9 @@
         "operator": "Homer Electric Assn Inc",
         "plant_output": "80.8 MW",
         "plant_source": "gas",
-        "plant:type": "combined_cycle",
+        "plant_type": "combined_cycle",
         "power": "plant",
-        "ref:US:EIA": "55966",
+        "refer": "55966",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1986-09"
       },
@@ -4387,9 +4387,9 @@
         "plant_method": "combustion",
         "plant_output": "31 MW",
         "plant_output:hot_water": "yes",
-        "plant_source": "oil;coal",
+        "plant_source": "oil_coal",
         "power": "plant",
-        "ref:US:EIA": "50392",
+        "refer": "50392",
         "source": "U.S. Energy Information Administration - EIA-860 - 2021",
         "start_date": "1952-10"
       },
@@ -4565,7 +4565,7 @@
         "plant_output": "11 MW",
         "plant_source": "oil",
         "power": "plant",
-        "ref:US:EIA": "109",
+        "refer": "109",
         "source": "U.S. Energy Information Administration - EIA-860 - 2022",
         "start_date": "1961-01"
       },
@@ -4725,7 +4725,7 @@
         "name": "Dutch Harbor Power Plant",
         "operator": "City of Unalaska - (AK)",
         "power": "plant",
-        "ref:US:EIA": "7502",
+        "refer": "7502",
         "source": "U.S. Energy Information Administration - EIA-860 - 2022",
         "start_date": "1985-10"
       },
@@ -4932,7 +4932,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -4982,7 +4982,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5014,7 +5014,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5046,7 +5046,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5078,7 +5078,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5110,7 +5110,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5142,7 +5142,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5174,7 +5174,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5206,7 +5206,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5238,7 +5238,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5270,7 +5270,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5302,7 +5302,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5334,7 +5334,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5366,7 +5366,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5398,7 +5398,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5430,7 +5430,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5462,7 +5462,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5494,7 +5494,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5526,7 +5526,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5558,7 +5558,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5590,7 +5590,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5622,7 +5622,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5654,7 +5654,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5686,7 +5686,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5718,7 +5718,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5750,7 +5750,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5782,7 +5782,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -5814,7 +5814,7 @@
               "plant_output": "0.5 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "1",
+              "refer": "1",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2011-10",
               "type": "site"
@@ -5846,7 +5846,7 @@
               "plant_output": "0.5 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "1",
+              "refer": "1",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2011-10",
               "type": "site"
@@ -5878,7 +5878,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5910,7 +5910,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5942,7 +5942,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -5974,7 +5974,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -6006,7 +6006,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -6038,7 +6038,7 @@
               "plant_output": "2.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "90",
+              "refer": "90",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-07",
               "type": "site"
@@ -6070,7 +6070,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -6102,7 +6102,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -6134,7 +6134,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -6166,7 +6166,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -6198,7 +6198,7 @@
               "plant_output": "3.3 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "6304",
+              "refer": "6304",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "1997-01",
               "type": "site"
@@ -6230,7 +6230,7 @@
               "plant_output": "9 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57187",
+              "refer": "57187",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2009-06",
               "type": "site"
@@ -6262,7 +6262,7 @@
               "plant_output": "9 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57187",
+              "refer": "57187",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2009-06",
               "type": "site"
@@ -6294,7 +6294,7 @@
               "plant_output": "9 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57187",
+              "refer": "57187",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2009-06",
               "type": "site"
@@ -6326,7 +6326,7 @@
               "plant_output": "9 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57187",
+              "refer": "57187",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2009-06",
               "type": "site"
@@ -6358,7 +6358,7 @@
               "plant_output": "9 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57187",
+              "refer": "57187",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2009-06",
               "type": "site"
@@ -6390,7 +6390,7 @@
               "plant_output": "9 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57187",
+              "refer": "57187",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2009-06",
               "type": "site"
@@ -6422,7 +6422,7 @@
               "plant_output": "24.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57935",
+              "refer": "57935",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-01",
               "type": "site"
@@ -6454,7 +6454,7 @@
               "plant_output": "24.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57935",
+              "refer": "57935",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-01",
               "type": "site"
@@ -6486,7 +6486,7 @@
               "plant_output": "24.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57935",
+              "refer": "57935",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-01",
               "type": "site"
@@ -6518,7 +6518,7 @@
               "plant_output": "24.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57935",
+              "refer": "57935",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-01",
               "type": "site"
@@ -6550,7 +6550,7 @@
               "plant_output": "24.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57935",
+              "refer": "57935",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-01",
               "type": "site"
@@ -6582,7 +6582,7 @@
               "plant_output": "24.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57935",
+              "refer": "57935",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-01",
               "type": "site"
@@ -6614,7 +6614,7 @@
               "plant_output": "24.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57935",
+              "refer": "57935",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-01",
               "type": "site"
@@ -6646,7 +6646,7 @@
               "plant_output": "24.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57935",
+              "refer": "57935",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-01",
               "type": "site"
@@ -6678,7 +6678,7 @@
               "plant_output": "24.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57935",
+              "refer": "57935",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-01",
               "type": "site"
@@ -6710,7 +6710,7 @@
               "plant_output": "24.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57935",
+              "refer": "57935",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-01",
               "type": "site"
@@ -6742,7 +6742,7 @@
               "plant_output": "24.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57935",
+              "refer": "57935",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-01",
               "type": "site"
@@ -6774,7 +6774,7 @@
               "plant_output": "24.6 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "57935",
+              "refer": "57935",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2013-01",
               "type": "site"
@@ -6806,7 +6806,7 @@
               "plant_output": "1.9 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "58511",
+              "refer": "58511",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2008-09",
               "type": "site"
@@ -6838,7 +6838,7 @@
               "plant_output": "1.9 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "58511",
+              "refer": "58511",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2008-09",
               "type": "site"
@@ -6870,7 +6870,7 @@
               "plant_output": "1.9 MW",
               "plant_source": "wind",
               "power": "plant",
-              "ref:US:EIA": "58511",
+              "refer": "58511",
               "source": "U.S. Energy Information Administration - EIA-860 - 2020",
               "start_date": "2008-09",
               "type": "site"
