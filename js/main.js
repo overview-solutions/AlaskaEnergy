@@ -118,6 +118,7 @@ map.on('load', function () {
                 let description = `<h2>${properties.name}</h2>`;
                 description += properties.plant_source ? `<p><strong>Type:</strong> ${properties.plant_source}</p>` : '';
                 description += properties.operator ? `<p><strong>Operator:</strong> ${properties.operator}</p>` : '';
+                description += properties.Output ? `<p><strong>output:</strong> ${properties.output}</p>` : '';
                 description += properties.plant_method ? `<p><strong>plant_method:</strong> ${properties.plant_method}</p>` : '';
                 return description;
             }
