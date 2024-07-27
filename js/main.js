@@ -1,8 +1,9 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoiZWFydGhhZGFtIiwiYSI6ImNqd3Y3amlwczBnMzc0YW4xc2x1NWVuNGoifQ.jQvOGeLkupgLxp31-Oa6gw';
+mapboxgl.accessToken = 'pk.eyJ1IjoiZWFydGhhZGFtIiwiYSI6ImNqd3VzNnN3ZDA2OWE0OHBoN2xrNmlrNGYifQ.MMqPanYD57YyTkaJYxyeHQ';
 
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/earthadam/clxtz9n6w00qe01obesn73j7q', // Presentation style
+    style: 'mapbox://styles/earthadam/clz4ne82p02ig01pebh0scaz9', // Presentation style
+    //style: 'mapbox://styles/earthadam/clxtz9n6w00qe01obesn73j7q', // Presentation style
     center: [-149.4937, 64.2008], // Coordinates for Alaska
     zoom: 4
 });
