@@ -2,11 +2,12 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZWFydGhhZGFtIiwiYSI6ImNqd3Y3amlwczBnMzc0YW4xc
 
 var map = new mapboxgl.Map({
     container: 'map',
+    projection: 'globe',
     style: 'mapbox://styles/earthadam/clxtz9n6w00qe01obesn73j7q', // Presentation style
     center: [-149.4937, 64.2008], // Coordinates for Alaska
     zoom: 4
 });
-
+map.setProjection('globe');
 var icon = "circle";
 
 map.on('load', function () {
