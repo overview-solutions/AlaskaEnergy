@@ -2,7 +2,7 @@
 This is a collection point for the notes, photos, and final report for the IEEE Smart Village 2024 trip to Alaska. 
 
 ## Interactive Map
-To see an interactive map of our project site-visits, as well as DOE/Launch Alaska Energyshed project locations, and Generation sources around the state of Alaska, go to this link: https://overview-solutions.github.io/AlaskaEnergy/
+[NOTE: Map updates seem result in a blank map sometimes. Apologies if this is the case] To see an interactive map of our project site-visits, as well as DOE/Launch Alaska Energyshed project locations, and Generation sources around the state of Alaska, go to this link: https://overview-solutions.github.io/AlaskaEnergy/
 
 ## Photo Album
 Here's the iCloud Link to our shared photo album, with plenty of picture from the conference, and site-visits, for greater context here: https://www.icloud.com/sharedalbum/#B0f5oqs3qrxTqzI
