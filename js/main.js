@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoiZWFydGhhZGFtIiwiYSI6ImNqd3VzNnN3ZDA2OWE0OHBoN2xrNmlrNGYifQ.MMqPanYD57YyTkaJYxyeHQ';
+mapboxgl.accessToken = 'pk.eyJ1IjoiZWFydGhhZGFtIiwiYSI6ImNqd3Y3amlwczBnMzc0YW4xc2x1NWVuNGoifQ.jQvOGeLkupgLxp31-Oa6gw';
 
 var map = new mapboxgl.Map({
     container: 'map',
@@ -7,6 +7,7 @@ var map = new mapboxgl.Map({
     center: [-149.4937, 64.2008], // Coordinates for Alaska
     zoom: 4
 });
+/*
 var icon = "circle";
 
 map.on('load', function () {
@@ -101,7 +102,7 @@ map.on('load', function () {
                         'oil', '#b22222',
                         'oil_coal', '#ff6347',
                         '', '#ccc', // Default color for undefined plant_source
-                    /* other */ '#fff'  // Default color for any unmatched values
+                    // '#fff'  // Default color for any unmatched values
                     ],
                     'circle-stroke-color': '#000',
                     'circle-stroke-width': 0.5
@@ -147,3 +148,4 @@ map.on('load', function () {
         .catch(error => console.error('Error fetching GeoJSON:', error));
     console.log('Map setup complete');
 });
+*/

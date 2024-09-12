@@ -1,0 +1,8 @@
+0,Residential Customer,"rgba(255,0,0, 0.8)"
+1,Commercial Customer,"rgba(255,0,0, 0.8)"
+2,PCE Fund,"rgba(200,200,0, 0.8)"
+3,Total Budget,"rgba(0, 29, 255, 0.8)"
+4,Distribution,"rgba(218, 160, 109, 0.8)"
+5,Diesel,"rgba(112, 114, 128, 0.8)"
+6,Non-Diesel,"rgba(200, 0, 200, 0.8)"
+7,Profits,"rgba(0, 200, 0, 0.8)"

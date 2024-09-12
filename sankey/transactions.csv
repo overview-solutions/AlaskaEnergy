@@ -1,0 +1,6 @@
+Residential,0,Total Budget,3,Bill,300,,,,Residential Rate,40
+PCE Fund,2,Total Budget,3,Rebate,202.5,,,,Commercial Rate,40
+Total Budget,3,Distribution,4,Cost,150,,,,PCE Fund Sppt,27
+Total Budget,3,Diesel,5,Cost,0,,,,Distribution Costs,20
+Total Budget,3,Non-Diesel,6,Cost,150,,,,Generation Costs,20
+Total Budget,3,Profits,7,Excess,202.5,,,,,
